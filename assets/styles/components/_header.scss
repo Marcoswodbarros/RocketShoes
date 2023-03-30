@@ -9,16 +9,29 @@ header {
             list-style: none;
             text-transform: uppercase;
 
-            li{
+            li {
                 padding: .5rem;
             }
         }
 
-        #search {
-            height: 2rem;
+        .header__input--container{
+            display: flex;
+            position: relative;
 
-            &::placeholder {
+            .input__search {
+                position: absolute;
+                left: 5%;
+                top: .25rem;
+            }
+
+            #search {
+                height: 2rem;
+                outline-color: $color-button;
                 text-align: center;
+    
+                &::placeholder {
+                    text-align: center;
+                }
             }
         }
     }

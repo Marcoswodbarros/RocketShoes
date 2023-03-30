@@ -11,13 +11,24 @@ header nav ul {
 header nav ul li {
   padding: 0.5rem;
 }
-header nav #search {
-  height: 2rem;
+header nav .header__input--container {
+  display: flex;
+  position: relative;
 }
-header nav #search::-moz-placeholder {
+header nav .header__input--container .input__search {
+  position: absolute;
+  left: 5%;
+  top: 0.25rem;
+}
+header nav .header__input--container #search {
+  height: 2rem;
+  outline-color: #FF0000;
   text-align: center;
 }
-header nav #search::placeholder {
+header nav .header__input--container #search::-moz-placeholder {
+  text-align: center;
+}
+header nav .header__input--container #search::placeholder {
   text-align: center;
 }
 
