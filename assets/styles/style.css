@@ -21,7 +21,46 @@ header nav #search::placeholder {
   text-align: center;
 }
 
+main #section__intro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+main #section__intro h1 {
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+main #section__intro .intro__subtitle {
+  color: #9C9696;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 60%;
+}
+main #section__intro .intro__price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+main #section__intro .intro__button {
+  background-color: #FF0000;
+  border-radius: 0.3rem;
+  color: #E5E5E5;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 45%;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #E5E5E5;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+main {
+    #section__intro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+
+        h1 {
+            height: 3rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .intro__subtitle {
+            color: $color-text-description;
+            font-size: .8rem;
+            text-align: center;
+            width: 60%;
+        }
+
+        .intro__price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 5%;
+        }
+
+        .intro__button {
+            background-color: $color-button;
+            border-radius: .3rem;
+            color: $color-background;
+            font-size: .8rem;
+            font-weight: 400;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            width: 45%;
+        }
+    }
+}

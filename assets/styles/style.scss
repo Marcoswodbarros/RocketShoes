@@ -1,7 +1,12 @@
 @import 'abstract/variables';
 @import 'components/header';
+@import 'components/main';
 
 *{
     box-sizing: border-box;
     font-family: $roboto;
+}
+
+body {
+    background-color: $color-background;
 }
