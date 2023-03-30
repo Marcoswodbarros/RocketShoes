@@ -1,0 +1,25 @@
+header {
+    nav {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: none;
+            list-style: none;
+            text-transform: uppercase;
+
+            li{
+                padding: .5rem;
+            }
+        }
+
+        #search {
+            height: 2rem;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }
+}

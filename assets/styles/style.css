@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+header nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: none;
+  list-style: none;
+  text-transform: uppercase;
+}
+header nav ul li {
+  padding: 0.5rem;
+}
+header nav #search {
+  height: 2rem;
+}
+header nav #search::-moz-placeholder {
+  text-align: center;
+}
+header nav #search::placeholder {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=style.css.map */
