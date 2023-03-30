@@ -21,29 +21,36 @@ header nav #search::placeholder {
   text-align: center;
 }
 
-main #section__intro {
+main #section__pictures {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 20%;
+  overflow: auto;
+}
+
+#section__intro {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-top: 5%;
 }
-main #section__intro h1 {
+#section__intro h1 {
   height: 3rem;
   font-size: 2rem;
   text-align: center;
 }
-main #section__intro .intro__subtitle {
+#section__intro .intro__subtitle {
   color: #9C9696;
   font-size: 0.8rem;
   text-align: center;
   width: 60%;
 }
-main #section__intro .intro__price {
+#section__intro .intro__price {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 5%;
 }
-main #section__intro .intro__button {
+#section__intro .intro__button {
   background-color: #FF0000;
   border-radius: 0.3rem;
   color: #E5E5E5;
