@@ -11,4 +11,8 @@
 
 body {
     background-color: $color-background;
+    max-height: 100vh;
+
+    @media screen and (min-width: $desktop) {
+    }
 }

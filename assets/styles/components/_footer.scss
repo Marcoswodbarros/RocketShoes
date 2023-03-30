@@ -2,13 +2,39 @@ footer {
     .footer__container {
         margin-top: 20%;
 
+        @media screen and (min-width: $desktop) {
+            align-items: center;
+            display: flex;
+            gap: .5rem;
+            justify-content: center;
+            position: relative;
+        }
+        
+
         iframe {
             width: 100%;
+
+            @media screen and (min-width: $desktop) {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 15vh;
+                width: 15vw;
+            }
         }
 
         nav {
+            @media screen and (min-width: $desktop) {
+                
+            }
+
             ul {
                 padding-left: 0;
+
+                @media screen and (min-width: $desktop) {
+                    display: flex;
+                    gap: 5rem;
+                }
 
                 li {
                     font-weight: 700;
@@ -26,9 +52,19 @@ footer {
             gap: .5rem;
             justify-content: center;
 
+            @media screen and (min-width: $desktop) {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 20%;
+            }
+
             p {
                 color: $color-background;
                 text-transform: uppercase;
+
+                @media screen and (min-width: $desktop) {
+                }
             }
         }
     }
