@@ -63,6 +63,33 @@ main #section__pictures {
   width: 45%;
 }
 
+footer .footer__container {
+  margin-top: 20%;
+}
+footer .footer__container iframe {
+  width: 100%;
+}
+footer .footer__container nav ul {
+  padding-left: 0;
+}
+footer .footer__container nav ul li {
+  font-weight: 700;
+  height: 5rem;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer .footer__container .footer--explore {
+  background-color: #000;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+footer .footer__container .footer--explore p {
+  color: #E5E5E5;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;

@@ -1,0 +1,35 @@
+footer {
+    .footer__container {
+        margin-top: 20%;
+
+        iframe {
+            width: 100%;
+        }
+
+        nav {
+            ul {
+                padding-left: 0;
+
+                li {
+                    font-weight: 700;
+                    height: 5rem;
+                    list-style: none;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .footer--explore {
+            background-color: $color-footer;
+            display: flex;
+            gap: .5rem;
+            justify-content: center;
+
+            p {
+                color: $color-background;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
