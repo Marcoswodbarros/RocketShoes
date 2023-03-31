@@ -6,6 +6,7 @@ header {
 
     @media screen and (min-width: $desktop) {
         justify-content: space-evenly;
+        margin-bottom: 0;
     }
 
     .header__logo {
