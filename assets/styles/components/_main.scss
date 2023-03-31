@@ -17,7 +17,7 @@ main {
             margin-top: 0;
             overflow: hidden;
             padding-bottom: 2rem;
-            padding-top: 8rem;
+            padding-top: 7rem;
             position: absolute;
             right: 0;
             top: 0;
@@ -30,7 +30,7 @@ main {
 
             @media screen and (min-width: $desktop) {
                 display: block;
-                height: 25rem;
+                height: 23rem;
             }
         }
 
@@ -42,7 +42,7 @@ main {
 
             .first__pic, .second__pic, .third__pic {
                 @media screen and (min-width: $desktop) {
-                    height: 9rem;
+                    height: 8rem;
                 }
             }
         }

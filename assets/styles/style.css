@@ -7,7 +7,7 @@ header {
 @media screen and (min-width: 1280px) {
   header {
     justify-content: space-between;
-    margin-bottom: 0;
+    margin: 1.5rem 1.5rem 0 1.5rem;
   }
 }
 header .header__logo {
@@ -93,7 +93,7 @@ main #section__pictures {
     margin-top: 0;
     overflow: hidden;
     padding-bottom: 2rem;
-    padding-top: 8rem;
+    padding-top: 7rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -107,7 +107,7 @@ main #section__pictures .bigShoe {
 @media screen and (min-width: 1280px) {
   main #section__pictures .bigShoe {
     display: block;
-    height: 25rem;
+    height: 23rem;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -118,7 +118,7 @@ main #section__pictures .bigShoe {
 }
 @media screen and (min-width: 1280px) {
   main #section__pictures .pictures__scroll--desktop .first__pic, main #section__pictures .pictures__scroll--desktop .second__pic, main #section__pictures .pictures__scroll--desktop .third__pic {
-    height: 9rem;
+    height: 8rem;
   }
 }
 
