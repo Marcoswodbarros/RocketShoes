@@ -118,7 +118,7 @@ footer .footer__container nav ul {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  row-gap: 1rem;
+  row-gap: 1.5rem;
 }
 @media screen and (min-width: 1280px) {
   footer .footer__container nav ul {
