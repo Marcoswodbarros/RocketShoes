@@ -5,7 +5,7 @@
     margin-top: 4rem;
 
     @media screen and (min-width: $desktop) {
-        width: 50%;
+        width: 30vw;
     }
 
     .section__intro--container {
@@ -60,9 +60,6 @@
             text-align: center;
             text-transform: uppercase;
             width: 45%;
-
-            @media screen and (min-width: $desktop) {}
         }
     }
-
 }

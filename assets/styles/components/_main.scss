@@ -15,13 +15,8 @@ main {
             background-color: $color-main-background;
             flex-direction: column;
             margin-top: 0;
-            padding-top: 10rem;
-            width: 50%;
-
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: -1;
+            padding-top: 8rem;
+            width: 60vw;
         }
 
         .bigShoe {
@@ -29,7 +24,7 @@ main {
 
             @media screen and (min-width: $desktop) {
                 display: block;
-                width: 30rem;
+                width: 20rem;
             }
         }
 
@@ -39,7 +34,8 @@ main {
             overflow: scroll;
 
             @media screen and (min-width: $desktop) {
-
+                overflow: hidden;
+                margin-bottom: 1rem;
 
                 .first__pic,
                 .second__pic,
