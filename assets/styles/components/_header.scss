@@ -1,19 +1,38 @@
 header {
     display: flex;
+    font-family: $roboto;
     justify-content: center;
     margin: 1rem .5rem 10% .5rem;
+
+    @media screen and (min-width: $desktop) {
+        justify-content: space-between;
+    }
 
     .header__logo {
         height: 5%;
         left: .5rem;
         position: absolute;
+
+        @media screen and (min-width: $desktop) {
+            position: static;
+        }
     }
 
     nav {
         ul {
             display: none;
+            font-weight: 700;
             list-style: none;
             text-transform: uppercase;
+
+            @media screen and (min-width: $desktop) {
+                display: flex;
+                column-gap: 20%;
+
+                &:last-child {
+                    margin-right: 5rem;
+                }
+            }
 
             li {
                 padding: .5rem;
@@ -46,5 +65,9 @@ header {
         height: 5%;
         position: absolute;
         right: .5rem;
+
+        @media screen and (min-width: $desktop) {
+            position: static;
+        }
     }
 }

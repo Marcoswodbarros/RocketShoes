@@ -1,17 +1,39 @@
 header {
   display: flex;
+  font-family: "Roboto", sans-serif;
   justify-content: center;
   margin: 1rem 0.5rem 10% 0.5rem;
+}
+@media screen and (min-width: 1280px) {
+  header {
+    justify-content: space-between;
+  }
 }
 header .header__logo {
   height: 5%;
   left: 0.5rem;
   position: absolute;
 }
+@media screen and (min-width: 1280px) {
+  header .header__logo {
+    position: static;
+  }
+}
 header nav ul {
   display: none;
+  font-weight: 700;
   list-style: none;
   text-transform: uppercase;
+}
+@media screen and (min-width: 1280px) {
+  header nav ul {
+    display: flex;
+    -moz-column-gap: 20%;
+         column-gap: 20%;
+  }
+  header nav ul:last-child {
+    margin-right: 5rem;
+  }
 }
 header nav ul li {
   padding: 0.5rem;
@@ -40,6 +62,11 @@ header .header__bag {
   height: 5%;
   position: absolute;
   right: 0.5rem;
+}
+@media screen and (min-width: 1280px) {
+  header .header__bag {
+    position: static;
+  }
 }
 
 main #section__pictures {
