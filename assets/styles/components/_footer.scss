@@ -2,7 +2,7 @@ footer {
     font-family: $roboto;
 
     .footer__container {
-        margin-top: 20%;
+        margin-top: 5rem;
 
         @media screen and (min-width: $desktop) {
             display: grid;
@@ -22,11 +22,10 @@ footer {
         }
 
         nav {
-            margin-bottom: 5%;
-            margin-top: 5%;
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
 
             @media screen and (min-width: $desktop) {
-                height: 10vh;
                 margin-bottom: 0;
             }
 

@@ -10,7 +10,7 @@ header {
     }
 
     .header__logo {
-        height: 5%;
+        height: 1.8rem;
         left: .5rem;
         position: absolute;
 
@@ -55,15 +55,23 @@ header {
             height: 2rem;
             outline-color: $color-button;
             text-align: center;
+
+            @media screen and (min-width: $desktop) {
+                border: none;
+                padding-left: 3rem;
+                text-align: start;
+                width: 15rem;
+            }            
         }
     }
 
     .header__bag {
-        height: 5%;
+        height: 1.8rem;
         position: absolute;
         right: .5rem;
 
         @media screen and (min-width: $desktop) {
+            height: 2rem;
             position: static;
         }
     }
