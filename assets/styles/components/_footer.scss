@@ -1,13 +1,12 @@
 footer {
+    font-family: $roboto;
+
     .footer__container {
         margin-top: 20%;
 
         @media screen and (min-width: $desktop) {
-            align-items: center;
-            display: flex;
-            gap: .5rem;
-            justify-content: center;
-            position: relative;
+            display: grid;
+            grid-template-columns: 10% 70% 20%;
         }
         
 
@@ -15,30 +14,31 @@ footer {
             width: 100%;
 
             @media screen and (min-width: $desktop) {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                height: 15vh;
-                width: 15vw;
+                height: 10vh;
             }
         }
 
         nav {
+            margin-bottom: 5%;
+            margin-top: 5%;
+
             @media screen and (min-width: $desktop) {
-                
+                height: 10vh;
             }
 
             ul {
+                display: flex;
+                flex-direction: column;
                 padding-left: 0;
+                row-gap: 1rem;
 
                 @media screen and (min-width: $desktop) {
-                    display: flex;
-                    gap: 5rem;
+                    display: grid;
+                    grid-template-columns: 25% 25% 25% 25%;
                 }
 
                 li {
                     font-weight: 700;
-                    height: 5rem;
                     list-style: none;
                     text-align: center;
                     text-transform: uppercase;
@@ -47,16 +47,19 @@ footer {
         }
 
         .footer--explore {
+            align-items: center;
             background-color: $color-footer;
+            column-gap: .5rem;
             display: flex;
-            gap: .5rem;
+            height: 3rem;
             justify-content: center;
 
             @media screen and (min-width: $desktop) {
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                width: 20%;
+                align-items: center;
+                display: grid;
+                gap: 0;
+                grid-template-columns: 50% auto;
+                justify-content: center;
             }
 
             p {

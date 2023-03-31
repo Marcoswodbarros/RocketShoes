@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +17,23 @@
 
 <body>
     <header>
-        <nav>
-            <img src="assets/images/logo.svg" alt="RocketShoes logo">
+        <img src="assets/images/logo.svg" class="header__logo" alt="RocketShoes logo">
 
+        <nav>
             <ul>
                 <li>Homem</li>
                 <li>Mulher</li>
                 <li>Criança</li>
                 <li>Customizar</li>
             </ul>
-
-            <div class="header__input--container">
-                <img src="assets/images/icon-search.svg" class="input__search" alt="Search">
-                <input type="search" name="search" id="search" placeholder="Pesquisar">
-            </div>
-            <img src="assets/images/icon-bag.svg" alt="Bag">
         </nav>
+
+        <div class="header__input--container">
+            <img src="assets/images/icon-search.svg" class="input__search" alt="Search">
+            <input type="search" name="search" id="search" placeholder="Pesquisar">
+        </div>
+
+        <img src="assets/images/icon-bag.svg" class="header__bag" alt="Bag">
     </header>
 
     <main>

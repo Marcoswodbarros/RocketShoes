@@ -1,7 +1,12 @@
-header nav {
-  align-items: center;
+header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 1rem 0.5rem 10% 0.5rem;
+}
+header .header__logo {
+  height: 5%;
+  left: 0.5rem;
+  position: absolute;
 }
 header nav ul {
   display: none;
@@ -11,25 +16,30 @@ header nav ul {
 header nav ul li {
   padding: 0.5rem;
 }
-header nav .header__input--container {
+header .header__input--container {
   display: flex;
   position: relative;
 }
-header nav .header__input--container .input__search {
+header .header__input--container .input__search {
   position: absolute;
   left: 5%;
   top: 0.25rem;
 }
-header nav .header__input--container #search {
+header .header__input--container #search {
   height: 2rem;
   outline-color: #FF0000;
   text-align: center;
 }
-header nav .header__input--container #search::-moz-placeholder {
+header .header__input--container #search::-moz-placeholder {
   text-align: center;
 }
-header nav .header__input--container #search::placeholder {
+header .header__input--container #search::placeholder {
   text-align: center;
+}
+header .header__bag {
+  height: 5%;
+  position: absolute;
+  right: 0.5rem;
 }
 
 main #section__pictures {
@@ -46,13 +56,14 @@ main #section__pictures {
   margin-top: 5%;
 }
 #section__intro h1 {
-  height: 3rem;
   font-size: 2rem;
+  margin-bottom: 5%;
   text-align: center;
 }
 #section__intro .intro__subtitle {
   color: #9C9696;
   font-size: 0.8rem;
+  margin-bottom: 8%;
   text-align: center;
   width: 60%;
 }
@@ -74,16 +85,16 @@ main #section__pictures {
   width: 45%;
 }
 
+footer {
+  font-family: "Roboto", sans-serif;
+}
 footer .footer__container {
   margin-top: 20%;
 }
 @media screen and (min-width: 1280px) {
   footer .footer__container {
-    align-items: center;
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    position: relative;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
   }
 }
 footer .footer__container iframe {
@@ -91,41 +102,52 @@ footer .footer__container iframe {
 }
 @media screen and (min-width: 1280px) {
   footer .footer__container iframe {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 15vh;
-    width: 15vw;
+    height: 10vh;
+  }
+}
+footer .footer__container nav {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+@media screen and (min-width: 1280px) {
+  footer .footer__container nav {
+    height: 10vh;
   }
 }
 footer .footer__container nav ul {
+  display: flex;
+  flex-direction: column;
   padding-left: 0;
+  row-gap: 1rem;
 }
 @media screen and (min-width: 1280px) {
   footer .footer__container nav ul {
-    display: flex;
-    gap: 5rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }
 footer .footer__container nav ul li {
   font-weight: 700;
-  height: 5rem;
   list-style: none;
   text-align: center;
   text-transform: uppercase;
 }
 footer .footer__container .footer--explore {
+  align-items: center;
   background-color: #000;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
   display: flex;
-  gap: 0.5rem;
+  height: 3rem;
   justify-content: center;
 }
 @media screen and (min-width: 1280px) {
   footer .footer__container .footer--explore {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 20%;
+    align-items: center;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 50% auto;
+    justify-content: center;
   }
 }
 footer .footer__container .footer--explore p {

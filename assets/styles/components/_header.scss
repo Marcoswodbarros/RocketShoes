@@ -1,10 +1,15 @@
 header {
+    display: flex;
+    justify-content: center;
+    margin: 1rem .5rem 10% .5rem;
+
+    .header__logo {
+        height: 5%;
+        left: .5rem;
+        position: absolute;
+    }
 
     nav {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-
         ul {
             display: none;
             list-style: none;
@@ -14,26 +19,32 @@ header {
                 padding: .5rem;
             }
         }
+    }
 
-        .header__input--container{
-            display: flex;
-            position: relative;
+    .header__input--container{
+        display: flex;
+        position: relative;
 
-            .input__search {
-                position: absolute;
-                left: 5%;
-                top: .25rem;
-            }
+        .input__search {
+            position: absolute;
+            left: 5%;
+            top: .25rem;
+        }
 
-            #search {
-                height: 2rem;
-                outline-color: $color-button;
+        #search {
+            height: 2rem;
+            outline-color: $color-button;
+            text-align: center;
+
+            &::placeholder {
                 text-align: center;
-    
-                &::placeholder {
-                    text-align: center;
-                }
             }
         }
+    }
+
+    .header__bag {
+        height: 5%;
+        position: absolute;
+        right: .5rem;
     }
 }
