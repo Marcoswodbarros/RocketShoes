@@ -1,8 +1,7 @@
 main {
     @media screen and (min-width: $desktop) {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-template-rows: 80vh;
+        display: flex;
+        height: 75vh;
     }
 
     #section__pictures {
@@ -10,5 +9,51 @@ main {
         gap: .5rem;
         margin-top: 20%;
         overflow: auto;
+
+        @media screen and (min-width: $desktop) {
+            align-items: center;
+            background-color: $color-main-background;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+            overflow: hidden;
+        }
+
+        .bigShoe {
+            display: none;
+
+            @media screen and (min-width: $desktop) {
+                margin-top: 12%;
+                display: block;
+                height: 60%;
+            }
+        }
+
+        .pictures__scroll--desktop {
+            @media screen and (min-width: $desktop) {
+                display: flex;
+                gap: 2rem;
+                justify-content: center;
+            }
+
+            .first__pic {
+                @media screen and (min-width: $desktop) {
+                    height: 70%;
+                }
+            }
+
+            .second__pic {
+                @media screen and (min-width: $desktop) {
+                    height: 70%;
+                }
+            }
+
+            .third__pic {
+                @media screen and (min-width: $desktop) {
+                    height: 70%;
+                }
+
+            }
+        }
     }
 }
