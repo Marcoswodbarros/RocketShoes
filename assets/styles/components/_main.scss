@@ -6,7 +6,7 @@ main {
     #section__pictures {
         display: flex;
         gap: .5rem;
-        margin-top: 20%;
+        margin-top: 5rem;
         overflow: auto;
 
         @media screen and (min-width: $desktop) {

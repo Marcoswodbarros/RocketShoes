@@ -28,7 +28,7 @@ header {
 
             @media screen and (min-width: $desktop) {
                 display: flex;
-                column-gap: 20%;
+                column-gap: 5rem;
 
                 &:last-child {
                     margin-right: 5rem;
@@ -46,8 +46,8 @@ header {
         position: relative;
 
         .input__search {
-            position: absolute;
             left: 5%;
+            position: absolute;
             top: .25rem;
         }
 
@@ -55,10 +55,6 @@ header {
             height: 2rem;
             outline-color: $color-button;
             text-align: center;
-
-            &::placeholder {
-                text-align: center;
-            }
         }
     }
 
