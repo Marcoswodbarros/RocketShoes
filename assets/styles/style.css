@@ -69,6 +69,13 @@ header .header__bag {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80vh;
+  }
+}
 main #section__pictures {
   display: flex;
   gap: 0.5rem;
@@ -82,22 +89,45 @@ main #section__pictures {
   flex-direction: column;
   margin-top: 5%;
 }
+@media screen and (min-width: 1280px) {
+  #section__intro {
+    justify-content: flex-start;
+  }
+}
 #section__intro h1 {
   font-size: 2rem;
   margin-bottom: 5%;
   text-align: center;
+}
+@media screen and (min-width: 1280px) {
+  #section__intro h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    width: 55%;
+  }
 }
 #section__intro .intro__subtitle {
   color: #9C9696;
   font-size: 0.8rem;
   margin-bottom: 8%;
   text-align: center;
-  width: 60%;
+  width: 55%;
+}
+@media screen and (min-width: 1280px) {
+  #section__intro .intro__subtitle {
+    text-align: left;
+  }
 }
 #section__intro .intro__price {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 5%;
+}
+@media screen and (min-width: 1280px) {
+  #section__intro .intro__price {
+    width: 55%;
+  }
 }
 #section__intro .intro__button {
   background-color: #FF0000;
@@ -110,6 +140,11 @@ main #section__pictures {
   text-align: center;
   text-transform: uppercase;
   width: 45%;
+}
+@media screen and (min-width: 1280px) {
+  #section__intro .intro__button {
+    margin-right: 10%;
+  }
 }
 
 footer {
@@ -188,5 +223,4 @@ footer .footer__container .footer--explore p {
 
 body {
   background-color: #E5E5E5;
-  max-height: 100vh;
 }/*# sourceMappingURL=style.css.map */

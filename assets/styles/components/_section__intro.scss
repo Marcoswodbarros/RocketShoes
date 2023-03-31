@@ -4,10 +4,21 @@
     flex-direction: column;
     margin-top: 5%;
 
+    @media screen and (min-width: $desktop) {
+        justify-content: flex-start;
+    }
+
     h1 {
         font-size: 2rem;
         margin-bottom: 5%;
         text-align: center;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: left;
+            width: 55%;
+        }
     }
 
     .intro__subtitle {
@@ -15,13 +26,21 @@
         font-size: .8rem;
         margin-bottom: 8%;
         text-align: center;
-        width: 60%;
+        width: 55%;
+
+        @media screen and (min-width: $desktop) {
+            text-align: left;
+        }
     }
 
     .intro__price {
         font-size: 1.5rem;
         font-weight: 700;
         margin-bottom: 5%;
+
+        @media screen and (min-width: $desktop) {
+            width: 55%;
+        }
     }
 
     .intro__button {
@@ -35,5 +54,9 @@
         text-align: center;
         text-transform: uppercase;
         width: 45%;
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10%;
+        }
     }
 }
