@@ -1,7 +1,6 @@
 main {
     @media screen and (min-width: $desktop) {
         display: flex;
-        height: 75vh;
     }
 
     #section__pictures {
@@ -17,15 +16,21 @@ main {
             flex-direction: column;
             margin-top: 0;
             overflow: hidden;
+            padding-bottom: 2rem;
+            padding-top: 8rem;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 58vw;
+            z-index: -1;
         }
 
         .bigShoe {
             display: none;
 
             @media screen and (min-width: $desktop) {
-                margin-top: 12%;
                 display: block;
-                height: 60%;
+                height: 25rem;
             }
         }
 
@@ -33,26 +38,12 @@ main {
             @media screen and (min-width: $desktop) {
                 display: flex;
                 gap: 2rem;
-                justify-content: center;
             }
 
-            .first__pic {
+            .first__pic, .second__pic, .third__pic {
                 @media screen and (min-width: $desktop) {
-                    height: 70%;
+                    height: 9rem;
                 }
-            }
-
-            .second__pic {
-                @media screen and (min-width: $desktop) {
-                    height: 70%;
-                }
-            }
-
-            .third__pic {
-                @media screen and (min-width: $desktop) {
-                    height: 70%;
-                }
-
             }
         }
     }

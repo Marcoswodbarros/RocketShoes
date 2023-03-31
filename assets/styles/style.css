@@ -73,7 +73,6 @@ header .header__bag {
 @media screen and (min-width: 1280px) {
   main {
     display: flex;
-    height: 75vh;
   }
 }
 main #section__pictures {
@@ -90,6 +89,13 @@ main #section__pictures {
     flex-direction: column;
     margin-top: 0;
     overflow: hidden;
+    padding-bottom: 2rem;
+    padding-top: 8rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 58vw;
+    z-index: -1;
   }
 }
 main #section__pictures .bigShoe {
@@ -97,31 +103,19 @@ main #section__pictures .bigShoe {
 }
 @media screen and (min-width: 1280px) {
   main #section__pictures .bigShoe {
-    margin-top: 12%;
     display: block;
-    height: 60%;
+    height: 25rem;
   }
 }
 @media screen and (min-width: 1280px) {
   main #section__pictures .pictures__scroll--desktop {
     display: flex;
     gap: 2rem;
-    justify-content: center;
   }
 }
 @media screen and (min-width: 1280px) {
-  main #section__pictures .pictures__scroll--desktop .first__pic {
-    height: 70%;
-  }
-}
-@media screen and (min-width: 1280px) {
-  main #section__pictures .pictures__scroll--desktop .second__pic {
-    height: 70%;
-  }
-}
-@media screen and (min-width: 1280px) {
-  main #section__pictures .pictures__scroll--desktop .third__pic {
-    height: 70%;
+  main #section__pictures .pictures__scroll--desktop .first__pic, main #section__pictures .pictures__scroll--desktop .second__pic, main #section__pictures .pictures__scroll--desktop .third__pic {
+    height: 9rem;
   }
 }
 
@@ -133,7 +127,7 @@ main #section__pictures .bigShoe {
 }
 @media screen and (min-width: 1280px) {
   #section__intro {
-    justify-content: flex-start;
+    width: 42vw;
   }
 }
 #section__intro h1 {
@@ -200,6 +194,8 @@ footer .footer__container {
     display: grid;
     grid-template-columns: 10% 70% 20%;
     margin-top: 0;
+    position: absolute;
+    bottom: 0;
   }
 }
 footer .footer__container iframe {
