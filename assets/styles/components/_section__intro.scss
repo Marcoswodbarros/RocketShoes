@@ -5,7 +5,7 @@
     margin-top: 4rem;
 
     @media screen and (min-width: $desktop) {
-        width: 42vw;
+        
     }
 
     h1 {
@@ -14,10 +14,7 @@
         text-align: center;
 
         @media screen and (min-width: $desktop) {
-            font-size: 3rem;
-            font-weight: bold;
-            text-align: left;
-            width: 55%;
+            
         }
     }
 
@@ -26,10 +23,10 @@
         font-size: .8rem;
         margin-bottom: 2rem;
         text-align: center;
-        width: 55%;
+        width: 22rem;
 
         @media screen and (min-width: $desktop) {
-            text-align: left;
+            
         }
     }
 
@@ -39,7 +36,7 @@
         margin-bottom: 5%;
 
         @media screen and (min-width: $desktop) {
-            width: 55%;
+            
         }
     }
 
@@ -56,7 +53,7 @@
         width: 45%;
 
         @media screen and (min-width: $desktop) {
-            margin-right: 10%;
+            
         }
     }
 }

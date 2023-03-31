@@ -1,7 +1,5 @@
 main {
-    @media screen and (min-width: $desktop) {
-        display: flex;
-    }
+    @media screen and (min-width: $desktop) {}
 
     #section__pictures {
         display: flex;
@@ -9,40 +7,26 @@ main {
         margin-top: 5rem;
         overflow: auto;
 
-        @media screen and (min-width: $desktop) {
-            align-items: center;
-            background-color: $color-main-background;
-            display: flex;
-            flex-direction: column;
-            margin-top: 0;
-            overflow: hidden;
-            padding-bottom: 2rem;
-            padding-top: 7rem;
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: 58vw;
-            z-index: -1;
-        }
+        @media screen and (min-width: $desktop) {}
 
         .bigShoe {
             display: none;
 
-            @media screen and (min-width: $desktop) {
-                display: block;
-                height: 23rem;
-            }
+            @media screen and (min-width: $desktop) {}
         }
 
         .pictures__scroll--desktop {
-            @media screen and (min-width: $desktop) {
-                display: flex;
-                gap: 2rem;
-            }
+            display: flex;
+            gap: .5rem;
+            overflow: scroll;
 
-            .first__pic, .second__pic, .third__pic {
-                @media screen and (min-width: $desktop) {
-                    height: 8rem;
+            @media screen and (min-width: $desktop) {
+
+
+                .first__pic,
+                .second__pic,
+                .third__pic {
+                    @media screen and (min-width: $desktop) {}
                 }
             }
         }

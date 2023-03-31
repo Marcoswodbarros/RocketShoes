@@ -5,8 +5,7 @@ header {
     margin: 1rem .5rem 10% .5rem;
 
     @media screen and (min-width: $desktop) {
-        justify-content: space-between;
-        margin: 1.5rem 1.5rem 0 1.5rem;
+        justify-content: space-evenly;
     }
 
     .header__logo {
@@ -15,7 +14,7 @@ header {
         position: absolute;
 
         @media screen and (min-width: $desktop) {
-            position: static;
+            left: 1.5rem;
         }
     }
 
@@ -27,12 +26,8 @@ header {
             text-transform: uppercase;
 
             @media screen and (min-width: $desktop) {
-                display: flex;
-                column-gap: 5rem;
-
-                &:last-child {
-                    margin-right: 5rem;
-                }
+               display: flex;
+               column-gap: 4rem;
             }
 
             li {
@@ -71,8 +66,7 @@ header {
         right: .5rem;
 
         @media screen and (min-width: $desktop) {
-            height: 2rem;
-            position: static;
+            right: 1.5rem;
         }
     }
 }
