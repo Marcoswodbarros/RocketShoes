@@ -6,9 +6,13 @@ header {
     padding: .5rem;
 
     @media screen and (min-width: $laptop) {
+        gap: 5rem;
         justify-content: space-around;
         padding-top: 1rem;
-        gap: 5rem;
+    }
+
+    @media screen and (min-width: $desktop) {
+        column-gap: 10rem;
     }
 
     .header__logo {
@@ -24,6 +28,10 @@ header {
                 display: flex;
                 font-weight: 700;
                 text-transform: uppercase;
+            }
+
+            @media screen and (min-width: $desktop) {
+                column-gap: 6rem;
             }
         }
     }
@@ -55,6 +63,10 @@ header {
             @media screen and (min-width: $laptop) {
                 padding-bottom: .3rem;
                 padding-top: .3rem;
+            }
+
+            @media screen and (min-width: $desktop) {
+                width: 15rem;
             }
         }
     }

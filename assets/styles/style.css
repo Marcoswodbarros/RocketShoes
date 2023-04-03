@@ -7,9 +7,15 @@ header {
 }
 @media screen and (min-width: 1024px) {
   header {
+    gap: 5rem;
     justify-content: space-around;
     padding-top: 1rem;
-    gap: 5rem;
+  }
+}
+@media screen and (min-width: 1720px) {
+  header {
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
   }
 }
 header .header__logo {
@@ -25,6 +31,12 @@ header nav ul {
     display: flex;
     font-weight: 700;
     text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1720px) {
+  header nav ul {
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
   }
 }
 header .header__input--container {
@@ -57,6 +69,11 @@ header .header__input--container #search::placeholder {
   header .header__input--container #search {
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
+  }
+}
+@media screen and (min-width: 1720px) {
+  header .header__input--container #search {
+    width: 15rem;
   }
 }
 header .header__bag {
