@@ -5,6 +5,12 @@ header {
     justify-content: space-between;
     padding: .5rem;
 
+    @media screen and (min-width: $laptop) {
+        justify-content: space-around;
+        padding-top: 1rem;
+        gap: 5rem;
+    }
+
     .header__logo {
         height: 1.5rem;
     }
@@ -12,6 +18,13 @@ header {
     nav {
         ul {
             display: none;
+
+            @media screen and (min-width: $laptop) {
+                column-gap: 3rem;
+                display: flex;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
         }
     }
 
@@ -21,8 +34,8 @@ header {
         position: relative;
 
         .input__search {
-            left: .4rem;
             height: 70%;
+            left: .4rem;
             position: absolute;
         }
 
@@ -38,6 +51,11 @@ header {
             @media screen and (min-width: $tablet) {
                 width: 100%;
             }
+
+            @media screen and (min-width: $laptop) {
+                padding-bottom: .3rem;
+                padding-top: .3rem;
+            }
         }
     }
 
@@ -46,6 +64,10 @@ header {
 
         @media screen and (min-width: $tablet) {
             padding-left: 15%;            
+        }
+
+        @media screen and (min-width: $laptop) {
+            padding-left: 0;
         }
     }
 }
