@@ -1,0 +1,62 @@
+#main__sections--container {
+    
+    #intro__section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        row-gap: .5rem;
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+
+            @media screen and (min-width: $tablet) {
+                width: 50%;                
+            }
+        }
+
+        p {
+            color: $color-textDescription;
+            font-size: .8rem;
+            margin: 0 auto;
+            text-align: center;
+            width: 55%;
+
+            @media screen and (min-width: $tablet) {
+                width: 35%;
+            }
+        }
+
+        .intro__price {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+
+        .intro__button--container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            @media screen and (min-width: $tablet) {
+                width: 60%;
+            }
+
+            .intro__button {
+                background-color: $color-button;
+                border-radius: .2rem;
+                color: white;
+                display: block;
+                font-weight: 700;
+                padding-bottom: .8rem;
+                padding-top: .8rem;
+                text-align: center;
+                text-transform: uppercase;
+                width: 50%;
+            }
+        }
+    }
+}
