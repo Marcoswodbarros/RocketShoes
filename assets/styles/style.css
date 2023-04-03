@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  align-items: center;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+header .header__logo {
+  height: 1.5rem;
+}
+header nav ul {
+  display: none;
+}
+header .header__input--container {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+header .header__input--container .input__search {
+  left: 0.4rem;
+  height: 70%;
+  position: absolute;
+}
+header .header__input--container #search {
+  outline-color: #FF0000;
+  padding-left: 0.5rem;
+  width: 80%;
+}
+header .header__input--container #search::-moz-placeholder {
+  text-align: center;
+}
+header .header__input--container #search::placeholder {
+  text-align: center;
+}
+header .header__bag {
+  height: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+header {
+    align-items: center;
+    background-color: $color-background;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+
+    .header__logo {
+        height: 1.5rem;
+    }
+
+    nav {
+        ul {
+            display: none;
+        }
+    }
+
+    .header__input--container {
+        align-items: center;
+        display: flex;
+        position: relative;
+
+        .input__search {
+            left: .4rem;
+            height: 70%;
+            position: absolute;
+        }
+
+        #search {
+            outline-color: $color-button;
+            padding-left: .5rem;
+            width: 80%;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }
+
+    .header__bag {
+        height: 1.5rem;
+    }
+}
