@@ -32,8 +32,18 @@ header .header__input--container #search::-moz-placeholder {
 header .header__input--container #search::placeholder {
   text-align: center;
 }
+@media screen and (min-width: 640px) {
+  header .header__input--container #search {
+    width: 100%;
+  }
+}
 header .header__bag {
   height: 1.5rem;
+}
+@media screen and (min-width: 640px) {
+  header .header__bag {
+    padding-left: 15%;
+  }
 }
 
 * {

@@ -34,10 +34,18 @@ header {
             &::placeholder {
                 text-align: center;
             }
+
+            @media screen and (min-width: $tablet) {
+                width: 100%;
+            }
         }
     }
 
     .header__bag {
         height: 1.5rem;
+
+        @media screen and (min-width: $tablet) {
+            padding-left: 15%;            
+        }
     }
 }
