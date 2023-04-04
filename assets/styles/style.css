@@ -111,13 +111,14 @@ header .header__bag {
   #main__sections--container #intro__section {
     align-items: start;
     padding-left: 8%;
-    padding-top: 8%;
+    padding-top: 4rem;
     row-gap: 0.8rem;
     width: 40%;
   }
 }
 @media screen and (min-width: 1720px) {
   #main__sections--container #intro__section {
+    padding-top: 8rem;
     row-gap: 1rem;
   }
 }
@@ -306,4 +307,5 @@ header .header__bag {
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 1vh;
 }/*# sourceMappingURL=style.css.map */

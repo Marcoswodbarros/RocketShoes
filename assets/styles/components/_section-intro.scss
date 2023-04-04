@@ -17,12 +17,13 @@
         @media screen and (min-width: $laptop) {
             align-items: start;
             padding-left: 8%;
-            padding-top: 8%;
+            padding-top: 4rem;
             row-gap: .8rem;
             width: 40%;
         }
 
         @media screen and (min-width: $desktop) {
+            padding-top: 8rem;
             row-gap: 1rem;
         }
 
