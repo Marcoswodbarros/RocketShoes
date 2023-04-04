@@ -219,6 +219,16 @@ header .header__bag {
   }
 }
 
+#pictures__section {
+  margin-top: 2rem;
+}
+#pictures__section .pictures__container {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+  overflow: scroll;
+}
+
 * {
   box-sizing: border-box;
 }

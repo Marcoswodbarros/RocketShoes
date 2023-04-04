@@ -1,0 +1,8 @@
+#pictures__section {
+    margin-top: 2rem;
+    .pictures__container {
+        column-gap: .5rem;
+        display: flex;
+        overflow: scroll;
+    }
+}
