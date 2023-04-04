@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-
+    
     @media screen and (min-width:$laptop) {
         align-items: center;
         background-color: $color-mainBackground;
         flex-direction: column;
+        height: 80vh;
         margin-top: 0;
         padding-bottom: 1rem;
         padding-top: 4rem;
@@ -42,7 +43,7 @@
         }
 
         .shoes__pictures {
-            height: 7rem;
+            height: 8rem;
 
             @media screen and (min-width:$laptop) {
                 height: 8rem;
