@@ -1,11 +1,11 @@
 #pictures__section {
-    background-color: $color-mainBackground;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 
     @media screen and (min-width:$laptop) {
         align-items: center;
+        background-color: $color-mainBackground;
         flex-direction: column;
         margin-top: 0;
         padding-bottom: 1rem;
@@ -42,7 +42,7 @@
         }
 
         .shoes__pictures {
-            height: 6rem;
+            height: 7rem;
 
             @media screen and (min-width:$laptop) {
                 height: 8rem;

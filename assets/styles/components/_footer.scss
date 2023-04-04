@@ -1,0 +1,29 @@
+footer {
+    .footer__video {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .footer__list {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        margin-top: 2rem;
+        row-gap: 1rem;
+        text-transform: uppercase;
+    }
+
+    .footer__button {
+        align-items: center;
+        background-color: $color-footer;
+        color: white;
+        display: flex;
+        gap: .5rem;
+        justify-content: center;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        text-transform: uppercase;
+    }
+}
