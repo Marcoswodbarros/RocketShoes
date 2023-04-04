@@ -135,8 +135,7 @@ header .header__input--container .header__bag {
 }
 @media screen and (min-width: 1440px) {
   #main__sections--container #intro__section {
-    padding-left: 6%;
-    padding-top: 8rem;
+    padding-top: 6rem;
     row-gap: 1rem;
   }
 }
@@ -162,8 +161,8 @@ header .header__input--container .header__bag {
 @media screen and (min-width: 1440px) {
   #main__sections--container #intro__section h1 {
     line-height: 4rem;
-    font-size: 3.5rem;
-    width: 20rem;
+    font-size: 3.9rem;
+    width: 25rem;
   }
 }
 #main__sections--container #intro__section p {
@@ -189,8 +188,8 @@ header .header__input--container .header__bag {
 @media screen and (min-width: 1440px) {
   #main__sections--container #intro__section p {
     line-height: 1.5rem;
-    font-size: 1.2rem;
-    width: 25rem;
+    font-size: 1.1rem;
+    width: 23rem;
   }
 }
 #main__sections--container #intro__section .intro__price {
@@ -284,7 +283,7 @@ header .header__input--container .header__bag {
 @media screen and (min-width: 1440px) {
   #pictures__section {
     padding-bottom: 1.5rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 }
 #pictures__section .big__shoes {
@@ -298,7 +297,7 @@ header .header__input--container .header__bag {
 }
 @media screen and (min-width: 1440px) {
   #pictures__section .big__shoes {
-    height: 35rem;
+    height: 25rem;
   }
 }
 #pictures__section .pictures__container {
@@ -324,12 +323,11 @@ header .header__input--container .header__bag {
 }
 @media screen and (min-width: 1440px) {
   #pictures__section .pictures__container .shoes__pictures {
-    height: 14rem;
+    height: 11rem;
   }
 }
 
 footer {
-  align-items: center;
   display: flex;
   flex-direction: column;
   height: 12vh;
@@ -357,6 +355,12 @@ footer .footer__video {
     width: 7.5rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  footer .footer__video {
+    width: 10rem;
+    height: 6.9rem;
+  }
+}
 footer .footer__list {
   align-items: center;
   display: flex;
@@ -368,8 +372,8 @@ footer .footer__list {
 }
 @media screen and (min-width: 1024px) {
   footer .footer__list {
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
+    -moz-column-gap: 10rem;
+         column-gap: 10rem;
     flex-direction: row;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -395,6 +399,13 @@ footer .footer__button {
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
     height: 4.8rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer .footer__button {
+    font-size: 1.2rem;
+    height: 6.9rem;
+    width: 25rem;
   }
 }
 

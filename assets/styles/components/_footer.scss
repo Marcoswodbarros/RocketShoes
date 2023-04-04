@@ -1,5 +1,4 @@
 footer {
-    align-items: center;
     display: flex;
     flex-direction: column;
     height: 12vh;
@@ -23,6 +22,11 @@ footer {
             margin-top: 0;
             width: 7.5rem;
         }
+
+        @media screen and (min-width: $desktop) {
+            width: 10rem;
+            height: 6.9rem;
+        }
     }
 
     .footer__list {
@@ -35,7 +39,7 @@ footer {
         text-transform: uppercase;
 
         @media screen and (min-width: $laptop) {
-            column-gap: 5rem;
+            column-gap: 10rem;
             flex-direction: row;
             margin-left: 5rem;
             margin-right: 5rem;
@@ -61,6 +65,12 @@ footer {
             padding-top: 1.6rem;
             padding-bottom: 1.6rem;
             height: 4.8rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            font-size: 1.2rem;
+            height: 6.9rem;
+            width: 25rem;
         }
     }
 }
