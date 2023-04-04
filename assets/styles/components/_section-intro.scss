@@ -34,6 +34,7 @@
             text-align: center;
 
             @media screen and (min-width: $tablet) {
+                font-size: 2.2rem;
                 width: 60%;
             }
 
@@ -82,6 +83,10 @@
             font-weight: 700;
             margin-top: 1rem;
 
+            @media screen and (min-width: $tablet) {
+                font-size: 1.5rem;        
+            }
+
             @media screen and (min-width: $laptop) {
                 font-size: 2rem;
             }
@@ -99,7 +104,7 @@
             width: 100%;
 
             @media screen and (min-width: $tablet) {
-                width: 60%;
+                width: 70%;
             }
 
             @media screen and (min-width: $laptop) {

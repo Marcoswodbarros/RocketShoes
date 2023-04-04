@@ -69,6 +69,8 @@ header .header__input--container #search::placeholder {
 }
 @media screen and (min-width: 640px) {
   header .header__input--container #search {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     width: 100%;
   }
 }
@@ -145,6 +147,7 @@ header .header__bag {
 }
 @media screen and (min-width: 640px) {
   #main__sections--container #intro__section h1 {
+    font-size: 2.2rem;
     width: 60%;
   }
 }
@@ -196,6 +199,11 @@ header .header__bag {
   font-weight: 700;
   margin-top: 1rem;
 }
+@media screen and (min-width: 640px) {
+  #main__sections--container #intro__section .intro__price {
+    font-size: 1.5rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section .intro__price {
     font-size: 2rem;
@@ -215,7 +223,7 @@ header .header__bag {
 }
 @media screen and (min-width: 640px) {
   #main__sections--container #intro__section .intro__button--container {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -319,9 +327,20 @@ header .header__bag {
   }
 }
 
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 footer .footer__video {
+  border-radius: 0.3rem;
   margin-top: 2rem;
-  width: 100%;
+  width: 90%;
+}
+@media screen and (min-width: 640px) {
+  footer .footer__video {
+    width: 70%;
+  }
 }
 footer .footer__list {
   align-items: center;
@@ -343,6 +362,7 @@ footer .footer__button {
   padding-bottom: 1rem;
   padding-top: 1rem;
   text-transform: uppercase;
+  width: 100%;
 }
 
 * {
