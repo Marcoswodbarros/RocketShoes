@@ -222,11 +222,22 @@ header .header__bag {
 #pictures__section {
   margin-top: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  #pictures__section {
+    width: 50%;
+  }
+}
 #pictures__section .pictures__container {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
   overflow: scroll;
+}
+#pictures__section .pictures__container .big__shoes {
+  display: none;
+}
+#pictures__section .pictures__container .shoes__pictures {
+  height: 6rem;
 }
 
 * {
