@@ -1,16 +1,33 @@
 #pictures__section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 2rem;
 
     @media screen and (min-width:$laptop) {
         width: 50%;
     }
+
+    .big__shoes {
+        display: none;
+
+        @media screen and (min-width: $laptop) {
+            display: block;
+            height: 15rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            
+        } 
+    }
+
     .pictures__container {
         column-gap: .5rem;
         display: flex;
         overflow: scroll;
 
-        .big__shoes {
-            display: none;
+        @media screen and (min-width: $laptop) {
+            overflow: hidden;
         }
 
         .shoes__pictures {

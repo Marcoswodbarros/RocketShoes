@@ -220,11 +220,23 @@ header .header__bag {
 }
 
 #pictures__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin-top: 2rem;
 }
 @media screen and (min-width: 1024px) {
   #pictures__section {
     width: 50%;
+  }
+}
+#pictures__section .big__shoes {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #pictures__section .big__shoes {
+    display: block;
+    height: 15rem;
   }
 }
 #pictures__section .pictures__container {
@@ -233,8 +245,10 @@ header .header__bag {
   display: flex;
   overflow: scroll;
 }
-#pictures__section .pictures__container .big__shoes {
-  display: none;
+@media screen and (min-width: 1024px) {
+  #pictures__section .pictures__container {
+    overflow: hidden;
+  }
 }
 #pictures__section .pictures__container .shoes__pictures {
   height: 6rem;
