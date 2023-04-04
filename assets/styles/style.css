@@ -101,6 +101,7 @@ header .header__bag {
 }
 #main__sections--container #intro__section {
   align-items: center;
+  background-color: #E5E5E5;
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
@@ -109,6 +110,10 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section {
     align-items: start;
+    padding-left: 8%;
+    padding-top: 8%;
+    row-gap: 0.8rem;
+    width: 40%;
   }
 }
 @media screen and (min-width: 1720px) {
@@ -123,19 +128,22 @@ header .header__bag {
 }
 @media screen and (min-width: 640px) {
   #main__sections--container #intro__section h1 {
-    width: 50%;
+    width: 60%;
   }
 }
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section h1 {
+    line-height: 3rem;
     font-size: 2.9rem;
     text-align: start;
-    width: 40%;
+    width: 17rem;
   }
 }
 @media screen and (min-width: 1720px) {
   #main__sections--container #intro__section h1 {
-    font-size: 3.5rem;
+    line-height: 4rem;
+    font-size: 4rem;
+    width: 23rem;
   }
 }
 #main__sections--container #intro__section p {
@@ -152,14 +160,17 @@ header .header__bag {
 }
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section p {
+    line-height: 1rem;
     text-align: start;
     margin: 0;
-    width: 45%;
+    width: 17rem;
   }
 }
 @media screen and (min-width: 1720px) {
   #main__sections--container #intro__section p {
-    font-size: 1rem;
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+    width: 25rem;
   }
 }
 #main__sections--container #intro__section .intro__price {
@@ -175,7 +186,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1720px) {
   #main__sections--container #intro__section .intro__price {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 #main__sections--container #intro__section .intro__button--container {
@@ -191,7 +202,12 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section .intro__button--container {
     justify-content: start;
-    width: 60%;
+    width: 13rem;
+  }
+}
+@media screen and (min-width: 1720px) {
+  #main__sections--container #intro__section .intro__button--container {
+    width: 19rem;
   }
 }
 #main__sections--container #intro__section .intro__button--container .intro__button {
@@ -210,24 +226,37 @@ header .header__bag {
   #main__sections--container #intro__section .intro__button--container .intro__button {
     padding-bottom: 1rem;
     padding-top: 1rem;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1720px) {
   #main__sections--container #intro__section .intro__button--container .intro__button {
+    font-size: 1.5rem;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
   }
 }
 
 #pictures__section {
-  align-items: center;
+  background-color: #C4C4C4;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin-top: 2rem;
 }
 @media screen and (min-width: 1024px) {
   #pictures__section {
-    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1720px) {
+  #pictures__section {
+    padding-bottom: 1.5rem;
+    padding-top: 6rem;
   }
 }
 #pictures__section .big__shoes {
@@ -236,12 +265,12 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #pictures__section .big__shoes {
     display: block;
-    height: 15rem;
+    height: 18rem;
   }
 }
 @media screen and (min-width: 1720px) {
   #pictures__section .big__shoes {
-    height: 18rem;
+    height: 30rem;
   }
 }
 #pictures__section .pictures__container {
@@ -252,11 +281,23 @@ header .header__bag {
 }
 @media screen and (min-width: 1024px) {
   #pictures__section .pictures__container {
+    -moz-column-gap: 1.2rem;
+         column-gap: 1.2rem;
     overflow: hidden;
   }
 }
 #pictures__section .pictures__container .shoes__pictures {
   height: 6rem;
+}
+@media screen and (min-width: 1024px) {
+  #pictures__section .pictures__container .shoes__pictures {
+    height: 8rem;
+  }
+}
+@media screen and (min-width: 1720px) {
+  #pictures__section .pictures__container .shoes__pictures {
+    height: 13rem;
+  }
 }
 
 * {

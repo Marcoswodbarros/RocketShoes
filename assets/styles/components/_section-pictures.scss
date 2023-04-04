@@ -1,24 +1,34 @@
 #pictures__section {
-    align-items: center;
+    background-color: $color-mainBackground;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     margin-top: 2rem;
 
     @media screen and (min-width:$laptop) {
-        width: 50%;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0;
+        padding-bottom: 1rem;
+        padding-top: 4rem;
+        width: 60%;
     }
+
+    @media screen and (min-width:$desktop) {
+        padding-bottom: 1.5rem;
+        padding-top: 6rem;
+    } 
 
     .big__shoes {
         display: none;
 
         @media screen and (min-width: $laptop) {
             display: block;
-            height: 15rem;
+            height: 18rem;
         }
 
         @media screen and (min-width: $desktop) {
-            height: 18rem;
-        } 
+            height: 30rem;
+        }
     }
 
     .pictures__container {
@@ -27,11 +37,20 @@
         overflow: scroll;
 
         @media screen and (min-width: $laptop) {
+            column-gap: 1.2rem;
             overflow: hidden;
         }
 
         .shoes__pictures {
             height: 6rem;
+
+            @media screen and (min-width:$laptop) {
+                height: 8rem;
+            }
+
+            @media screen and (min-width:$desktop) {
+                height: 13rem;
+            }
         }
     }
 }
