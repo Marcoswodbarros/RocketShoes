@@ -239,6 +239,11 @@ header .header__bag {
     height: 15rem;
   }
 }
+@media screen and (min-width: 1720px) {
+  #pictures__section .big__shoes {
+    height: 18rem;
+  }
+}
 #pictures__section .pictures__container {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
