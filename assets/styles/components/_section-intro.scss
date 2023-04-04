@@ -17,6 +17,10 @@
             align-items: start;
         }
 
+        @media screen and (min-width: $desktop) {
+            row-gap: 1rem;
+        }
+
         h1 {
             font-size: 2rem;
             font-weight: 700;
@@ -30,6 +34,10 @@
                 font-size: 2.9rem;
                 text-align: start;
                 width: 40%;
+            }
+
+            @media screen and (min-width: $desktop) {
+                font-size: 3.5rem;
             }
         }
 
@@ -49,6 +57,10 @@
                 margin: 0;
                 width: 45%;
             }
+
+            @media screen and (min-width: $desktop) {
+                font-size: 1rem;
+            }
         }
 
         .intro__price {
@@ -59,6 +71,10 @@
 
             @media screen and (min-width: $laptop) {
                 font-size: 2rem;
+            }
+
+            @media screen and (min-width: $desktop) {
+                font-size: 2.5rem;
             }
         }
 
@@ -91,6 +107,11 @@
                 @media screen and (min-width: $laptop) {
                     padding-bottom: 1rem;
                     padding-top: 1rem;
+                }
+
+                @media screen and (min-width: $desktop) {
+                    padding-bottom: 1.5rem;
+                    padding-top: 1.5rem;
                 }
             }
         }
