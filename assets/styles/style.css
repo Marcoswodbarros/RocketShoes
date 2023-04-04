@@ -133,6 +133,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section {
+    padding-left: 6%;
     padding-top: 8rem;
     row-gap: 1rem;
   }
@@ -157,9 +158,9 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section h1 {
-    line-height: 4rem;
-    font-size: 4rem;
-    width: 23rem;
+    line-height: 6rem;
+    font-size: 5.5rem;
+    width: 31rem;
   }
 }
 #main__sections--container #intro__section p {
@@ -184,9 +185,9 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section p {
-    line-height: 1.3rem;
-    font-size: 1.2rem;
-    width: 25rem;
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    width: 32rem;
   }
 }
 #main__sections--container #intro__section .intro__price {
@@ -202,7 +203,9 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__price {
-    font-size: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
   }
 }
 #main__sections--container #intro__section .intro__button--container {
@@ -223,7 +226,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__button--container {
-    width: 19rem;
+    width: 23rem;
   }
 }
 #main__sections--container #intro__section .intro__button--container .intro__button {
@@ -247,9 +250,9 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__button--container .intro__button {
-    font-size: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+    font-size: 1.8rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
   }
 }
 
@@ -272,7 +275,7 @@ header .header__bag {
 @media screen and (min-width: 1728px) {
   #pictures__section {
     padding-bottom: 1.5rem;
-    padding-top: 6rem;
+    padding-top: 8rem;
   }
 }
 #pictures__section .big__shoes {
@@ -286,7 +289,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #pictures__section .big__shoes {
-    height: 30rem;
+    height: 35rem;
   }
 }
 #pictures__section .pictures__container {
@@ -312,7 +315,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1728px) {
   #pictures__section .pictures__container .shoes__pictures {
-    height: 13rem;
+    height: 14rem;
   }
 }
 
