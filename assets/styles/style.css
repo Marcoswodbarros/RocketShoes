@@ -12,14 +12,20 @@ header {
     padding-top: 1rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   header {
     -moz-column-gap: 10rem;
          column-gap: 10rem;
+    padding-top: 1.5rem;
   }
 }
 header .header__logo {
   height: 1.5rem;
+}
+@media screen and (min-width: 1728px) {
+  header .header__logo {
+    height: 3rem;
+  }
 }
 header nav ul {
   display: none;
@@ -33,10 +39,11 @@ header nav ul {
     text-transform: uppercase;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   header nav ul {
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+    font-size: 2rem;
   }
 }
 header .header__input--container {
@@ -67,14 +74,17 @@ header .header__input--container #search::placeholder {
 }
 @media screen and (min-width: 1024px) {
   header .header__input--container #search {
+    border: none;
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
-    border: none;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   header .header__input--container #search {
-    width: 15rem;
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    width: 17rem;
   }
 }
 header .header__bag {
@@ -88,6 +98,11 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   header .header__bag {
     padding-left: 0;
+  }
+}
+@media screen and (min-width: 1728px) {
+  header .header__bag {
+    height: 3rem;
   }
 }
 
@@ -116,7 +131,7 @@ header .header__bag {
     width: 40%;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section {
     padding-top: 8rem;
     row-gap: 1rem;
@@ -140,7 +155,7 @@ header .header__bag {
     width: 17rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section h1 {
     line-height: 4rem;
     font-size: 4rem;
@@ -167,7 +182,7 @@ header .header__bag {
     width: 17rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section p {
     line-height: 1.3rem;
     font-size: 1.2rem;
@@ -185,7 +200,7 @@ header .header__bag {
     font-size: 2rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__price {
     font-size: 3rem;
   }
@@ -206,7 +221,7 @@ header .header__bag {
     width: 13rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__button--container {
     width: 19rem;
   }
@@ -230,7 +245,7 @@ header .header__bag {
     width: 100%;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #main__sections--container #intro__section .intro__button--container .intro__button {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
@@ -254,7 +269,7 @@ header .header__bag {
     width: 60%;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #pictures__section {
     padding-bottom: 1.5rem;
     padding-top: 6rem;
@@ -269,7 +284,7 @@ header .header__bag {
     height: 18rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #pictures__section .big__shoes {
     height: 30rem;
   }
@@ -295,7 +310,7 @@ header .header__bag {
     height: 8rem;
   }
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1728px) {
   #pictures__section .pictures__container .shoes__pictures {
     height: 13rem;
   }
