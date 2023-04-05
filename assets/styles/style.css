@@ -108,6 +108,9 @@ header .header__bag {
   }
 }
 
+#main__sections--container {
+  display: flex;
+}
 #main__sections--container #intro__section {
   align-items: center;
   display: flex;
@@ -139,6 +142,13 @@ header .header__bag {
     width: 16rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  #main__sections--container #intro__section h1 {
+    line-height: 4rem;
+    font-size: 3.5rem;
+    width: 21rem;
+  }
+}
 #main__sections--container #intro__section p {
   color: #9C9696;
   font-size: 0.8rem;
@@ -154,9 +164,16 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section p {
     font-size: 0.7rem;
+    line-height: 0.8rem;
     text-align: start;
     width: 16rem;
-    line-height: 0.8rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__sections--container #intro__section p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 21rem;
   }
 }
 #main__sections--container #intro__section .intro__price {
@@ -174,6 +191,14 @@ header .header__bag {
   #main__sections--container #intro__section .intro__price {
     margin-bottom: 0.8rem;
     width: 16rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__sections--container #intro__section .intro__price {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 21rem;
   }
 }
 #main__sections--container #intro__section .intro__button {
@@ -196,6 +221,13 @@ header .header__bag {
     margin-right: 4rem;
     padding: 1.5rem 3.5rem;
     text-align: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__sections--container #intro__section .intro__button {
+    font-size: 1.3rem;
+    margin-right: 4.5rem;
+    padding: 2rem 5rem;
   }
 }
 
