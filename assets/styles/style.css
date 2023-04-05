@@ -108,6 +108,38 @@ header .header__bag {
   }
 }
 
+#main__sections--container #intro__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+#main__sections--container #intro__section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  text-align: center;
+}
+#main__sections--container #intro__section p {
+  color: #9C9696;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 60%;
+}
+#main__sections--container #intro__section .intro__price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+#main__sections--container #intro__section .intro__button {
+  background-color: #FF0000;
+  border-radius: 0.2rem;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+}
+
 .big__shoes {
   display: none;
 }

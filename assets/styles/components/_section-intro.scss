@@ -1,0 +1,37 @@
+#main__sections--container {
+    #intro__section{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        p {
+            color: $color-textDescription;
+            font-size: .8rem;
+            text-align: center;
+            width: 60%;
+        }
+
+        .intro__price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+
+        .intro__button {
+            background-color: $color-button;
+            border-radius: .2rem;
+            color: white;
+            font-weight: 700;
+            padding: 1rem 3rem;
+            text-transform: uppercase;
+        }
+    }
+}
