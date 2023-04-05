@@ -4,12 +4,29 @@ header {
     justify-content: space-between;
     padding: .5rem;
 
+    @media screen and (min-width: $laptop) {
+        height: 10vh;
+    }
+
     .header__logo {
         height: 1.8rem;
     }
 
     nav {
         display: none;
+
+        @media screen and (min-width: $laptop) {
+            display: block;
+        }
+
+        ul {
+            @media screen and (min-width: $laptop) {
+                display: flex;
+                column-gap: 4rem;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
     }
 
     .header__input--container {
@@ -30,7 +47,7 @@ header {
                 text-align: center;
             }
 
-            @media screen and (min-width:$tablet) {
+            @media screen and (min-width: $tablet) {
                 width: 15rem;
             }
         }

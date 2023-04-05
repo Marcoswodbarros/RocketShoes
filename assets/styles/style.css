@@ -4,11 +4,30 @@ header {
   justify-content: space-between;
   padding: 0.5rem;
 }
+@media screen and (min-width: 1024px) {
+  header {
+    height: 10vh;
+  }
+}
 header .header__logo {
   height: 1.8rem;
 }
 header nav {
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  header nav {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header nav ul {
+    display: flex;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
 header .header__input--container {
   align-items: center;
