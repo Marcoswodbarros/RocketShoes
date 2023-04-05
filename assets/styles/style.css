@@ -236,14 +236,18 @@ header .header__bag {
 #pictures__section {
   margin-top: 4rem;
 }
+#pictures__section .big__shoes {
+  display: none;
+}
 #pictures__section .pictures__container {
   display: flex;
   overflow: scroll;
-  margin: 0 auto;
 }
-
-.big__shoes {
-  display: none;
+@media screen and (min-width: 640px) {
+  #pictures__section .pictures__container {
+    margin: 0 auto;
+    width: 35rem;
+  }
 }
 
 * {

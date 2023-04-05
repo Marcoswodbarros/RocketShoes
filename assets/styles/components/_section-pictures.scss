@@ -1,13 +1,18 @@
 #pictures__section {
     margin-top: 4rem;
 
+    .big__shoes {
+        display: none;
+    }
+    
     .pictures__container {
         display: flex;
         overflow: scroll;
-        margin: 0 auto;
+        
+        
+        @media screen and (min-width: $tablet) {
+            margin: 0 auto;
+            width: 35rem;
+        }
     }
-}
-
-.big__shoes {
-    display: none;
 }
