@@ -11,12 +11,22 @@
         width: 66.5vw;
     }
 
+    @media screen and (min-width: $desktop) {
+        width: 65vw;
+
+        height: 75vh;
+    }
+
     .big__shoes {
         display: none;
 
         @media screen and (min-width: $laptop) {
             display: block;
             height: 18rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            height: 25rem;
         }
     }
 
@@ -34,9 +44,17 @@
             overflow: hidden;
         }
 
+        @media screen and (min-width: $desktop) {
+            width: 48rem;
+        }
+
         .shoes__pictures {
             @media screen and (min-width: $laptop) {
                 height: 7rem;
+            }
+
+            @media screen and (min-width: $desktop) {
+                height: 10rem;
             }
         }
     }

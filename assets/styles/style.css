@@ -6,13 +6,14 @@ header {
 }
 @media screen and (min-width: 1024px) {
   header {
+    background-image: linear-gradient(to right, #E5E5E5 33.5%, #C4C4C4 33.5% 100%);
     height: 10vh;
     padding: 0 1rem;
-    background-image: linear-gradient(to right, #E5E5E5 33.5%, #C4C4C4 33.5% 100%);
   }
 }
 @media screen and (min-width: 1440px) {
   header {
+    background-image: linear-gradient(to right, #E5E5E5 35%, #C4C4C4 35% 100%);
     padding: 0 1.8rem;
   }
 }
@@ -124,6 +125,11 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section {
     width: 33.5vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #main__sections--container #intro__section {
+    width: 35vw;
   }
 }
 #main__sections--container #intro__section h1 {
@@ -249,6 +255,12 @@ header .header__bag {
     width: 66.5vw;
   }
 }
+@media screen and (min-width: 1440px) {
+  #pictures__section {
+    width: 65vw;
+    height: 75vh;
+  }
+}
 #pictures__section .big__shoes {
   display: none;
 }
@@ -256,6 +268,11 @@ header .header__bag {
   #pictures__section .big__shoes {
     display: block;
     height: 18rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #pictures__section .big__shoes {
+    height: 25rem;
   }
 }
 #pictures__section .pictures__container {
@@ -274,9 +291,19 @@ header .header__bag {
     overflow: hidden;
   }
 }
+@media screen and (min-width: 1440px) {
+  #pictures__section .pictures__container {
+    width: 48rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   #pictures__section .pictures__container .shoes__pictures {
     height: 7rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #pictures__section .pictures__container .shoes__pictures {
+    height: 10rem;
   }
 }
 
@@ -292,5 +319,10 @@ body {
   body main {
     background-image: linear-gradient(to right, #E5E5E5 33.5%, #C4C4C4 33.5% 100%);
     height: 75vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body main {
+    background-image: linear-gradient(to right, #E5E5E5 35%, #C4C4C4 35% 100%);
   }
 }/*# sourceMappingURL=style.css.map */

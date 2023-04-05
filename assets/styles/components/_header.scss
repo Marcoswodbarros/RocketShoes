@@ -5,12 +5,13 @@ header {
     padding: .5rem;
 
     @media screen and (min-width: $laptop) {
+        background-image: linear-gradient(to right, $color-background 33.5%, $color-mainBackground 33.5% 100%);
         height: 10vh;
         padding: 0 1rem;
-        background-image: linear-gradient(to right, $color-background 33.5%, $color-mainBackground 33.5% 100%);
     }
 
     @media screen and (min-width: $desktop) {
+        background-image: linear-gradient(to right, $color-background 35%, $color-mainBackground 35% 100%);
         padding: 0 1.8rem;
     }
 
