@@ -258,7 +258,6 @@ header .header__bag {
 @media screen and (min-width: 1440px) {
   #pictures__section {
     width: 65vw;
-    height: 75vh;
   }
 }
 #pictures__section .big__shoes {
@@ -305,6 +304,33 @@ header .header__bag {
   #pictures__section .pictures__container .shoes__pictures {
     height: 10rem;
   }
+}
+
+footer {
+  margin-top: 4rem;
+}
+footer .footer__video {
+  width: 100%;
+}
+footer .footer__list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  margin: 2rem 0;
+  row-gap: 2rem;
+  text-transform: uppercase;
+}
+footer .footer__button {
+  align-items: center;
+  background-color: #000;
+  color: white;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+  text-transform: uppercase;
 }
 
 * {
