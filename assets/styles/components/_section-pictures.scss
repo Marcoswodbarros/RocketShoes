@@ -1,18 +1,43 @@
 #pictures__section {
     margin-top: 4rem;
+    
+    @media screen and (min-width: $laptop) {
+        align-items: center;
+        background-color: $color-mainBackground;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 3rem;
+        width: 66.5vw;
+    }
 
     .big__shoes {
         display: none;
+
+        @media screen and (min-width: $laptop) {
+            display: block;
+            height: 18rem;
+        }
     }
-    
+
     .pictures__container {
         display: flex;
         overflow: scroll;
         
-        
         @media screen and (min-width: $tablet) {
             margin: 0 auto;
             width: 35rem;
+        }
+
+        @media screen and (min-width: $laptop) {
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .shoes__pictures {
+            @media screen and (min-width: $laptop) {
+                height: 7rem;
+            }
         }
     }
 }

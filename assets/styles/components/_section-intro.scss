@@ -1,5 +1,6 @@
 #main__sections--container {
     @media screen and (min-width: $laptop) {
+        align-items: center;
         display: flex;
     }
 
@@ -10,7 +11,7 @@
         row-gap: .5rem;
 
         @media screen and (min-width: $laptop) {
-            width: 50vw;
+            width: 33.5vw;
         }
 
         h1 {
