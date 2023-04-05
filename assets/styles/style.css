@@ -309,8 +309,20 @@ header .header__bag {
 footer {
   margin-top: 4rem;
 }
+@media screen and (min-width: 640px) {
+  footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer .footer__video {
   width: 100%;
+}
+@media screen and (min-width: 640px) {
+  footer .footer__video {
+    width: 35rem;
+  }
 }
 footer .footer__list {
   align-items: center;
@@ -331,6 +343,11 @@ footer .footer__button {
   justify-content: center;
   padding: 1.5rem 0;
   text-transform: uppercase;
+}
+@media screen and (min-width: 640px) {
+  footer .footer__button {
+    width: 100%;
+  }
 }
 
 * {
