@@ -5,24 +5,63 @@
         flex-direction: column;
         row-gap: .5rem;
 
+        @media screen and (min-width: $laptop) {
+            width: 50vw;
+        }
+
         h1 {
             font-size: 2rem;
             font-weight: 700;
             margin-top: 2rem;
             text-align: center;
+            width: 19rem;
+
+            @media screen and (min-width: $tablet) {
+                font-size: 2.5rem;
+                width: 24rem;
+            }
+
+            @media screen and (min-width: $laptop) {
+                line-height: 2.8rem;
+                text-align: start;
+                width: 16rem;
+            }
+
         }
 
         p {
             color: $color-textDescription;
             font-size: .8rem;
             text-align: center;
-            width: 60%;
+            width: 14rem;
+            
+            @media screen and (min-width: $tablet) {
+                font-size: 1rem;
+                width: 24rem;
+            }
+
+            @media screen and (min-width: $laptop) {
+                font-size: .7rem;
+                text-align: start;
+                width: 16rem;
+                line-height: .8rem;
+            }
         }
 
         .intro__price {
             font-size: 1.5rem;
             font-weight: 700;
             margin-top: 1rem;
+
+            @media screen and (min-width: $tablet) {
+                font-size: 1.8rem;
+                margin-top: 1.5rem;
+            }
+
+            @media screen and (min-width: $laptop) {
+                margin-bottom: .8rem;
+                width: 16rem;
+            }
         }
 
         .intro__button {
@@ -32,6 +71,18 @@
             font-weight: 700;
             padding: 1rem 3rem;
             text-transform: uppercase;
+
+            @media screen and (min-width: $tablet) {
+                font-size: 1.1rem;
+                padding: 1.5rem 4rem;
+            }
+
+            @media screen and (min-width: $laptop) {
+                font-size: 1rem;
+                margin-right: 4rem;
+                padding: 1.5rem 3.5rem;
+                text-align: center;
+            }
         }
     }
 }

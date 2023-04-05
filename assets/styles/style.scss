@@ -11,4 +11,10 @@
 body {
     background-color: $color-background;
     font-family: $roboto;
+
+    main {
+        @media screen and (min-width: $laptop) {
+            height: 80vh;
+        }
+    }
 }

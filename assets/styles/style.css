@@ -114,22 +114,67 @@ header .header__bag {
   flex-direction: column;
   row-gap: 0.5rem;
 }
+@media screen and (min-width: 1024px) {
+  #main__sections--container #intro__section {
+    width: 50vw;
+  }
+}
 #main__sections--container #intro__section h1 {
   font-size: 2rem;
   font-weight: 700;
   margin-top: 2rem;
   text-align: center;
+  width: 19rem;
+}
+@media screen and (min-width: 640px) {
+  #main__sections--container #intro__section h1 {
+    font-size: 2.5rem;
+    width: 24rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__sections--container #intro__section h1 {
+    line-height: 2.8rem;
+    text-align: start;
+    width: 16rem;
+  }
 }
 #main__sections--container #intro__section p {
   color: #9C9696;
   font-size: 0.8rem;
   text-align: center;
-  width: 60%;
+  width: 14rem;
+}
+@media screen and (min-width: 640px) {
+  #main__sections--container #intro__section p {
+    font-size: 1rem;
+    width: 24rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__sections--container #intro__section p {
+    font-size: 0.7rem;
+    text-align: start;
+    width: 16rem;
+    line-height: 0.8rem;
+  }
 }
 #main__sections--container #intro__section .intro__price {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 1rem;
+}
+@media screen and (min-width: 640px) {
+  #main__sections--container #intro__section .intro__price {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__sections--container #intro__section .intro__price {
+    margin-bottom: 0.8rem;
+    width: 16rem;
+  }
 }
 #main__sections--container #intro__section .intro__button {
   background-color: #FF0000;
@@ -138,6 +183,20 @@ header .header__bag {
   font-weight: 700;
   padding: 1rem 3rem;
   text-transform: uppercase;
+}
+@media screen and (min-width: 640px) {
+  #main__sections--container #intro__section .intro__button {
+    font-size: 1.1rem;
+    padding: 1.5rem 4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main__sections--container #intro__section .intro__button {
+    font-size: 1rem;
+    margin-right: 4rem;
+    padding: 1.5rem 3.5rem;
+    text-align: center;
+  }
 }
 
 .big__shoes {
@@ -151,4 +210,9 @@ header .header__bag {
 body {
   background-color: #E5E5E5;
   font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  body main {
+    height: 80vh;
+  }
 }/*# sourceMappingURL=style.css.map */
