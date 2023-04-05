@@ -321,7 +321,7 @@ header .header__bag {
   #pictures__section .pictures__container .shoes__pictures--one:hover, #pictures__section .pictures__container .shoes__pictures--two:hover, #pictures__section .pictures__container .shoes__pictures--three:hover {
     border-bottom: 5px #FF0000 solid;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s linear;
   }
 }
 @media screen and (min-width: 1440px) {
