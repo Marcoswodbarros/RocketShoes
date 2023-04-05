@@ -29,6 +29,10 @@ header {
             &::placeholder {
                 text-align: center;
             }
+
+            @media screen and (min-width:$tablet) {
+                width: 15rem;
+            }
         }
     }
 
