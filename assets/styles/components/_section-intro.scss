@@ -1,5 +1,7 @@
 #main__sections--container {
-    display: flex;
+    @media screen and (min-width: $laptop) {
+        display: flex;
+    }
 
     #intro__section{
         align-items: center;
@@ -14,7 +16,7 @@
         h1 {
             font-size: 2rem;
             font-weight: 700;
-            margin-top: 2rem;
+            margin-top: 3rem;
             text-align: center;
             width: 19rem;
 
@@ -65,7 +67,7 @@
         .intro__price {
             font-size: 1.5rem;
             font-weight: 700;
-            margin-top: 1rem;
+            margin-top: 2rem;
 
             @media screen and (min-width: $tablet) {
                 font-size: 1.8rem;

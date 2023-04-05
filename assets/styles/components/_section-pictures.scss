@@ -1,3 +1,13 @@
+#pictures__section {
+    margin-top: 4rem;
+
+    .pictures__container {
+        display: flex;
+        overflow: scroll;
+        margin: 0 auto;
+    }
+}
+
 .big__shoes {
     display: none;
 }

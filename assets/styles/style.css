@@ -108,8 +108,10 @@ header .header__bag {
   }
 }
 
-#main__sections--container {
-  display: flex;
+@media screen and (min-width: 1024px) {
+  #main__sections--container {
+    display: flex;
+  }
 }
 #main__sections--container #intro__section {
   align-items: center;
@@ -125,7 +127,7 @@ header .header__bag {
 #main__sections--container #intro__section h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: center;
   width: 19rem;
 }
@@ -179,7 +181,7 @@ header .header__bag {
 #main__sections--container #intro__section .intro__price {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 640px) {
   #main__sections--container #intro__section .intro__price {
@@ -229,6 +231,15 @@ header .header__bag {
     margin-right: 4.5rem;
     padding: 2rem 5rem;
   }
+}
+
+#pictures__section {
+  margin-top: 4rem;
+}
+#pictures__section .pictures__container {
+  display: flex;
+  overflow: scroll;
+  margin: 0 auto;
 }
 
 .big__shoes {
