@@ -46,9 +46,15 @@
             width: 48rem;
         }
 
-        .shoes__pictures {
+        .shoes__pictures--one, .shoes__pictures--two, .shoes__pictures--three {
             @media screen and (min-width: $laptop) {
-                height: 7rem
+                height: 7rem;
+
+                &:hover{
+                    border-bottom: 5px $color-button solid;
+                    cursor: pointer;
+                    transition: all .3s;
+                }
             }
 
             @media screen and (min-width: $desktop) {

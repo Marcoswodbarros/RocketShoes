@@ -315,12 +315,17 @@ header .header__bag {
   }
 }
 @media screen and (min-width: 1024px) {
-  #pictures__section .pictures__container .shoes__pictures {
+  #pictures__section .pictures__container .shoes__pictures--one, #pictures__section .pictures__container .shoes__pictures--two, #pictures__section .pictures__container .shoes__pictures--three {
     height: 7rem;
+  }
+  #pictures__section .pictures__container .shoes__pictures--one:hover, #pictures__section .pictures__container .shoes__pictures--two:hover, #pictures__section .pictures__container .shoes__pictures--three:hover {
+    border-bottom: 5px #FF0000 solid;
+    cursor: pointer;
+    transition: all 0.3s;
   }
 }
 @media screen and (min-width: 1440px) {
-  #pictures__section .pictures__container .shoes__pictures {
+  #pictures__section .pictures__container .shoes__pictures--one, #pictures__section .pictures__container .shoes__pictures--two, #pictures__section .pictures__container .shoes__pictures--three {
     height: 10rem;
   }
 }
