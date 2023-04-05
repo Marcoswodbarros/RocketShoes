@@ -6,10 +6,19 @@ header {
 
     @media screen and (min-width: $laptop) {
         height: 10vh;
+        padding: 0 1rem;
+    }
+
+    @media screen and (min-width: $desktop) {
+        padding: 0 1.8rem;
     }
 
     .header__logo {
         height: 1.8rem;
+
+        @media screen and (min-width: $desktop) {
+            height: 2.5rem;
+        }
     }
 
     nav {
@@ -21,10 +30,14 @@ header {
 
         ul {
             @media screen and (min-width: $laptop) {
-                display: flex;
                 column-gap: 4rem;
-                text-transform: uppercase;
+                display: flex;
                 font-weight: 700;
+                text-transform: uppercase;
+
+                @media screen and (min-width: $desktop) {
+                    font-size: 1.5rem;
+                }
             }
         }
     }
@@ -37,23 +50,49 @@ header {
         .input__search {
             left: .2rem;
             position: absolute;
+
+            @media screen and (min-width: $laptop) {
+                left: .3rem;
+            }
+
+            @media screen and (min-width: $desktop) {
+                left: .5rem;
+                height: 1.8rem;
+            }
         }
 
         #search {
+            border: 0;
             height: 2rem;
             outline-color: $color-button;
 
             &::placeholder {
                 text-align: center;
+
+                @media screen and (min-width: $desktop) {
+                    font-size: 1.2rem;
+                }
             }
 
             @media screen and (min-width: $tablet) {
                 width: 15rem;
+            }
+
+            @media screen and (min-width: $desktop) {
+                height: 2.5rem;
             }
         }
     }
 
     .header__bag {
         height: 1.8rem;
+
+        @media screen and (min-width: $laptop) {
+            height: 1.5rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            height: 2rem;
+        }
     }
 }

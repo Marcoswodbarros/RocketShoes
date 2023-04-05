@@ -7,10 +7,21 @@ header {
 @media screen and (min-width: 1024px) {
   header {
     height: 10vh;
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 0 1.8rem;
   }
 }
 header .header__logo {
   height: 1.8rem;
+}
+@media screen and (min-width: 1440px) {
+  header .header__logo {
+    height: 2.5rem;
+  }
 }
 header nav {
   display: none;
@@ -22,11 +33,16 @@ header nav {
 }
 @media screen and (min-width: 1024px) {
   header nav ul {
-    display: flex;
     -moz-column-gap: 4rem;
          column-gap: 4rem;
-    text-transform: uppercase;
+    display: flex;
     font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1440px) {
+  header nav ul {
+    font-size: 1.5rem;
   }
 }
 header .header__input--container {
@@ -38,7 +54,19 @@ header .header__input--container .input__search {
   left: 0.2rem;
   position: absolute;
 }
+@media screen and (min-width: 1024px) {
+  header .header__input--container .input__search {
+    left: 0.3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header .header__input--container .input__search {
+    left: 0.5rem;
+    height: 1.8rem;
+  }
+}
 header .header__input--container #search {
+  border: 0;
   height: 2rem;
   outline-color: #FF0000;
 }
@@ -48,13 +76,36 @@ header .header__input--container #search::-moz-placeholder {
 header .header__input--container #search::placeholder {
   text-align: center;
 }
+@media screen and (min-width: 1440px) {
+  header .header__input--container #search::-moz-placeholder {
+    font-size: 1.2rem;
+  }
+  header .header__input--container #search::placeholder {
+    font-size: 1.2rem;
+  }
+}
 @media screen and (min-width: 640px) {
   header .header__input--container #search {
     width: 15rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  header .header__input--container #search {
+    height: 2.5rem;
+  }
+}
 header .header__bag {
   height: 1.8rem;
+}
+@media screen and (min-width: 1024px) {
+  header .header__bag {
+    height: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header .header__bag {
+    height: 2rem;
+  }
 }
 
 .big__shoes {
