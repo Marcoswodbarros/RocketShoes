@@ -18,6 +18,12 @@ header {
     .header__logo {
         height: 1.8rem;
 
+        @media screen and (min-width:$laptop) {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
         @media screen and (min-width: $desktop) {
             height: 2.5rem;
         }
@@ -41,6 +47,15 @@ header {
                     font-size: 1.5rem;
                 }
             }
+
+            li {
+                @media screen and (min-width:$laptop) {
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
     }
 
@@ -54,6 +69,7 @@ header {
             position: absolute;
 
             @media screen and (min-width: $laptop) {
+                cursor: pointer;
                 left: .3rem;
             }
 
@@ -90,6 +106,7 @@ header {
         height: 1.8rem;
 
         @media screen and (min-width: $laptop) {
+            cursor: pointer;
             height: 1.5rem;
         }
 

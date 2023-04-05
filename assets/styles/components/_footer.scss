@@ -8,6 +8,7 @@ footer {
     }
 
     @media screen and (min-width:$laptop) {
+        cursor: pointer;
         flex-direction: row;
         height: 15vh;
         justify-content: space-between;
@@ -45,6 +46,13 @@ footer {
             font-size: 1.2rem;
             column-gap: 7rem;
         }
+
+        li:hover {
+            @media screen and (min-width:$laptop) {
+                cursor: pointer;
+                text-decoration: underline;
+            }    
+        }
     }
 
     .footer__button {
@@ -64,6 +72,12 @@ footer {
         @media screen and (min-width:$laptop) {
             height: 100%;
             width: 25%;
+
+            &:hover {
+                background: rgb(116, 209, 143);
+                font-size: 1.3rem;
+                transition: all .8s;
+            }
         }
     }
 }
