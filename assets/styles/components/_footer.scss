@@ -7,11 +7,23 @@ footer {
         flex-direction: column;
     }
 
+    @media screen and (min-width:$laptop) {
+        flex-direction: row;
+        height: 15vh;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
     .footer__video {
         width: 100%;
 
         @media screen and (min-width: $tablet) {
             width: 35rem;
+        }
+
+        @media screen and (min-width:$laptop) {
+            height: 100%;
+            width: auto;
         }
     }
 
@@ -23,6 +35,16 @@ footer {
         margin: 2rem 0;
         row-gap: 2rem;
         text-transform: uppercase;
+
+        @media screen and (min-width:$laptop) {
+            column-gap: 4rem;
+            flex-direction: row;
+        }
+
+        @media screen and (min-width:$desktop) {
+            font-size: 1.2rem;
+            column-gap: 7rem;
+        }
     }
 
     .footer__button {
@@ -37,6 +59,11 @@ footer {
 
         @media screen and (min-width: $tablet) {
             width: 100%;
+        }
+
+        @media screen and (min-width:$laptop) {
+            height: 100%;
+            width: 25%;
         }
     }
 }
