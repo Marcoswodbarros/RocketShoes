@@ -22,7 +22,8 @@ This is my eighth challenge from Rocketseat.
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size;
-- See hover states for all interactive elements on the page.
+- See hover states for all interactive elements on the page;
+- Click on the pictures to see it in a bigger view.
 
 ### Screenshot
 
@@ -51,11 +52,11 @@ Users should be able to:
 
 ### What I learned
 
-While I was doing this project I was able to remember and improve my SCSS skills.
+While I was doing this project I was able to remember and improve my SCSS and also JavaScript skills.
 
 ### Continued development
 
-To my next projects, I will try to find a way to exercise my Bootstrap, SCSS and JS skills.
+To my next project, I will try to find a way to keep exercising my SCSS and JS skills.
 
 
 ## Author

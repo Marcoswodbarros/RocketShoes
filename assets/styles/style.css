@@ -260,8 +260,8 @@ header .header__bag {
   #main__sections--container #intro__section .intro__button:hover {
     background: rgb(116, 209, 143);
     font-size: 1.3rem;
-    transition: all 0.8s;
     max-height: 4rem;
+    transition: all 0.8s;
   }
 }
 @media screen and (min-width: 1440px) {
