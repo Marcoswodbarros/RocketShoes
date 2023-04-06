@@ -299,7 +299,6 @@ header .header__bag {
 }
 @media screen and (min-width: 1024px) {
   #pictures__section .bigPictures__container .fa-circle-xmark {
-    display: inline;
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
