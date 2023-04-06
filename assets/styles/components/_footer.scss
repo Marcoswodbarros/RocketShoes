@@ -47,11 +47,27 @@ footer {
             column-gap: 7rem;
         }
 
-        li:hover {
+        li {
             @media screen and (min-width:$laptop) {
-                cursor: pointer;
-                text-decoration: underline;
-            }    
+                &::after {
+                    content: " ";
+                    display: block;
+                    height: 3px;
+                    margin: auto;
+                    transition: width .5s ease;
+                    width: 0px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+
+                    &:hover::after {
+                        background-color: $color-text;
+                        width: 100%;
+                    }
+                }
+            }
+
         }
     }
 

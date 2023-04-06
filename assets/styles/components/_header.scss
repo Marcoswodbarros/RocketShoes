@@ -50,9 +50,22 @@ header {
 
             li {
                 @media screen and (min-width:$laptop) {
+                    &::after {
+                        content: '';
+                        display: block;
+                        height: 3px;
+                        margin: auto;
+                        transition: width .5s ease;
+                        width: 0px;
+                    }
+                    
                     &:hover {
                         cursor: pointer;
-                        text-decoration: underline;
+                        
+                        &:hover::after {
+                            background: $color-text;
+                            width: 100%;
+                        }
                     }
                 }
             }
