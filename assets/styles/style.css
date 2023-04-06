@@ -291,31 +291,45 @@ header .header__bag {
     width: 65vw;
   }
 }
-#pictures__section .big__shoes {
+#pictures__section .bigPictures__container {
+  position: relative;
+}
+#pictures__section .bigPictures__container .fa-circle-xmark {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  #pictures__section .big__shoes {
+  #pictures__section .bigPictures__container .fa-circle-xmark {
+    display: inline;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+  }
+}
+#pictures__section .bigPictures__container .big__shoes {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #pictures__section .bigPictures__container .big__shoes {
     display: block;
     height: 18rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  #pictures__section .big__shoes {
+  #pictures__section .bigPictures__container .big__shoes {
     height: 25rem;
   }
 }
-#pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+#pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  #pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+  #pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
     height: 13rem;
     margin-bottom: 5rem;
   }
 }
 @media screen and (min-width: 1440px) {
-  #pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+  #pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
     height: 20rem;
     margin-bottom: 5rem;
   }
@@ -342,17 +356,23 @@ header .header__bag {
   }
 }
 @media screen and (min-width: 1024px) {
-  #pictures__section .pictures__container .shoes__pictures--one, #pictures__section .pictures__container .shoes__pictures--two, #pictures__section .pictures__container .shoes__pictures--three {
+  #pictures__section .pictures__container .shoes__pictures--one,
+  #pictures__section .pictures__container .shoes__pictures--two,
+  #pictures__section .pictures__container .shoes__pictures--three {
     height: 7rem;
   }
-  #pictures__section .pictures__container .shoes__pictures--one:hover, #pictures__section .pictures__container .shoes__pictures--two:hover, #pictures__section .pictures__container .shoes__pictures--three:hover {
+  #pictures__section .pictures__container .shoes__pictures--one:hover,
+  #pictures__section .pictures__container .shoes__pictures--two:hover,
+  #pictures__section .pictures__container .shoes__pictures--three:hover {
     border-bottom: 5px #FF0000 solid;
     cursor: pointer;
     transition: all 0.3s linear;
   }
 }
 @media screen and (min-width: 1440px) {
-  #pictures__section .pictures__container .shoes__pictures--one, #pictures__section .pictures__container .shoes__pictures--two, #pictures__section .pictures__container .shoes__pictures--three {
+  #pictures__section .pictures__container .shoes__pictures--one,
+  #pictures__section .pictures__container .shoes__pictures--two,
+  #pictures__section .pictures__container .shoes__pictures--three {
     height: 10rem;
   }
 }
