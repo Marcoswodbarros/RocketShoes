@@ -15,14 +15,35 @@ let laptop = window.matchMedia("(min-width:1024px)");
 
 
 // Events
+x.addEventListener("click", noX);
 firstShoes.addEventListener("click", firstShoesOn);
 secondShoes.addEventListener("click", secondShoesOn);
 thirdShoes.addEventListener("click", thirdShoesOn);
-x.addEventListener("click", noX);
-laptop.addEventListener('change', firstShoesOn, secondShoesOn, thirdShoesOn)
+laptop.addEventListener('change', biggerOn, firstShoesOn, secondShoesOn, thirdShoesOn);
 
 
 // Functions
+
+function biggerOn() {
+    if (window.matchMedia("(min-width:1024px)").matches) {
+        x.style.display = "none";
+        x.style.color = "black";
+        bigger.style.display = "block";
+        firstBig.style.display = "none";
+        secondBig.style.display = "none";
+        thirdBig.style.display = "none";
+    }
+
+    else {
+        x.style.display = "none";
+        x.style.color = "black";
+        bigger.style.display = "none";
+        firstBig.style.display = "none";
+        secondBig.style.display = "none";
+        thirdBig.style.display = "none";
+    }
+}    
+
 function firstShoesOn() {
     if (window.matchMedia("(min-width:1024px)").matches) {
         x.style.display = "inline";
@@ -35,7 +56,6 @@ function firstShoesOn() {
 
     else {
         x.style.display = "none";
-        x.style.color = "black";
         bigger.style.display = "none";
         firstBig.style.display = "none";
         secondBig.style.display = "none";
@@ -55,7 +75,6 @@ function secondShoesOn() {
 
     else {
         x.style.display = "none";
-        x.style.color = "black";
         bigger.style.display = "none";
         firstBig.style.display = "none";
         secondBig.style.display = "none";
@@ -66,7 +85,7 @@ function secondShoesOn() {
 function thirdShoesOn() {
     if (window.matchMedia("(min-width:1024px)").matches) {
         x.style.display = "inline";
-        x.style.color = "black";
+        x.style.color = "white";
         bigger.style.display = "none";
         firstBig.style.display = "none";
         secondBig.style.display = "none";
@@ -75,7 +94,6 @@ function thirdShoesOn() {
 
     else {
         x.style.display = "none";
-        x.style.color = "black";
         bigger.style.display = "none";
         firstBig.style.display = "none";
         secondBig.style.display = "none";
@@ -87,14 +105,6 @@ function noX() {
     if (window.matchMedia("(min-width:1024px)").matches) {
         x.style.display = "none";
         bigger.style.display = "block";
-        firstBig.style.display = "none";
-        secondBig.style.display = "none";
-        thirdBig.style.display = "none";
-    }
-
-    else {
-        x.style.display = "none";
-        bigger.style.display = "none";
         firstBig.style.display = "none";
         secondBig.style.display = "none";
         thirdBig.style.display = "none";
