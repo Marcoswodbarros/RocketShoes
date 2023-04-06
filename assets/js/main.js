@@ -5,12 +5,10 @@ let thirdShoes = document.querySelector('.shoes__pictures--three');
 
 let x = document.querySelector('.fa-circle-xmark');
 let bigger = document.querySelector('.big__shoes');
-
 let firstBig = document.querySelector('.pictures__one--big');
 let secondBig = document.querySelector('.pictures__two--big');
 let thirdBig = document.querySelector('.pictures__three--big');
 
-let tablet = window.matchMedia("(max-width:1023px");
 let laptop = window.matchMedia("(min-width:1024px)");
 
 
