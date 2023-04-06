@@ -264,6 +264,10 @@ header .header__bag {
     margin-right: 4.5rem;
     padding: 2rem 5rem;
   }
+  #main__sections--container #intro__section .intro__button:hover {
+    font-size: 1.6rem;
+    max-height: 5.3rem;
+  }
 }
 
 #pictures__section {

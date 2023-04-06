@@ -120,6 +120,11 @@
                 font-size: 1.3rem;
                 margin-right: 4.5rem;
                 padding: 2rem 5rem;
+
+                &:hover {
+                    font-size: 1.6rem;
+                    max-height: 5.3rem;
+                }
             }
         }
     }
