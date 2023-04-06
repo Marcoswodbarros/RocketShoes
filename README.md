@@ -47,6 +47,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS
 - Flexbox
+- JavaScript
 
 ### What I learned
 

@@ -293,6 +293,21 @@ header .header__bag {
     height: 25rem;
   }
 }
+#pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+    height: 13rem;
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #pictures__section .pictures__one--big, #pictures__section .pictures__two--big, #pictures__section .pictures__three--big {
+    height: 20rem;
+    margin-bottom: 5rem;
+  }
+}
 #pictures__section .pictures__container {
   display: flex;
   overflow: scroll;

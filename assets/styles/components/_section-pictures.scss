@@ -28,6 +28,20 @@
         }
     }
 
+    .pictures__one--big, .pictures__two--big, .pictures__three--big {
+        display: none;
+        
+        @media screen and (min-width: $laptop) {
+            height: 13rem;
+            margin-bottom: 5rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            height: 20rem;
+            margin-bottom: 5rem;
+        }
+    }
+
     .pictures__container {
         display: flex;
         overflow: scroll;
