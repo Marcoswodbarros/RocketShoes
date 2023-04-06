@@ -36,12 +36,14 @@
             }
         }
 
-        .pictures__one--big, .pictures__two--big, .pictures__three--big {
+        .pictures__one--big,
+        .pictures__two--big,
+        .pictures__three--big {
             display: none;
 
             @media screen and (min-width: $laptop) {
-                height: 13rem;
-                margin-bottom: 5rem;
+                height: 35vh;
+                margin-bottom: 10vh;
             }
 
             @media screen and (min-width: $desktop) {

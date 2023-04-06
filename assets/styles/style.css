@@ -306,17 +306,23 @@ header .header__bag {
     height: 25rem;
   }
 }
-#pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
+#pictures__section .bigPictures__container .pictures__one--big,
+#pictures__section .bigPictures__container .pictures__two--big,
+#pictures__section .bigPictures__container .pictures__three--big {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  #pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
-    height: 13rem;
-    margin-bottom: 5rem;
+  #pictures__section .bigPictures__container .pictures__one--big,
+  #pictures__section .bigPictures__container .pictures__two--big,
+  #pictures__section .bigPictures__container .pictures__three--big {
+    height: 35vh;
+    margin-bottom: 10vh;
   }
 }
 @media screen and (min-width: 1440px) {
-  #pictures__section .bigPictures__container .pictures__one--big, #pictures__section .bigPictures__container .pictures__two--big, #pictures__section .bigPictures__container .pictures__three--big {
+  #pictures__section .bigPictures__container .pictures__one--big,
+  #pictures__section .bigPictures__container .pictures__two--big,
+  #pictures__section .bigPictures__container .pictures__three--big {
     height: 20rem;
     margin-bottom: 5rem;
   }
