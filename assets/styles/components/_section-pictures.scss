@@ -30,10 +30,6 @@
                 display: block;
                 height: 45vh;
             }
-
-            @media screen and (min-width: $desktop) {
-                height: 25rem;
-            }
         }
 
         .pictures__one--big,
@@ -44,11 +40,6 @@
             @media screen and (min-width: $laptop) {
                 height: 35vh;
                 margin-bottom: 10vh;
-            }
-
-            @media screen and (min-width: $desktop) {
-                height: 20rem;
-                margin-bottom: 5rem;
             }
         }
     }
@@ -69,10 +60,6 @@
             width: 60vw;
         }
 
-        @media screen and (min-width: $desktop) {
-            width: 48rem;
-        }
-
         .shoes__pictures--one,
         .shoes__pictures--two,
         .shoes__pictures--three {
@@ -84,10 +71,6 @@
                     cursor: pointer;
                     transition: all .3s linear;
                 }
-            }
-
-            @media screen and (min-width: $desktop) {
-                height: 10rem;
             }
         }
     }

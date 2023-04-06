@@ -301,11 +301,6 @@ header .header__bag {
     height: 45vh;
   }
 }
-@media screen and (min-width: 1440px) {
-  #pictures__section .bigPictures__container .big__shoes {
-    height: 25rem;
-  }
-}
 #pictures__section .bigPictures__container .pictures__one--big,
 #pictures__section .bigPictures__container .pictures__two--big,
 #pictures__section .bigPictures__container .pictures__three--big {
@@ -317,14 +312,6 @@ header .header__bag {
   #pictures__section .bigPictures__container .pictures__three--big {
     height: 35vh;
     margin-bottom: 10vh;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #pictures__section .bigPictures__container .pictures__one--big,
-  #pictures__section .bigPictures__container .pictures__two--big,
-  #pictures__section .bigPictures__container .pictures__three--big {
-    height: 20rem;
-    margin-bottom: 5rem;
   }
 }
 #pictures__section .pictures__container {
@@ -346,11 +333,6 @@ header .header__bag {
     width: 60vw;
   }
 }
-@media screen and (min-width: 1440px) {
-  #pictures__section .pictures__container {
-    width: 48rem;
-  }
-}
 @media screen and (min-width: 1024px) {
   #pictures__section .pictures__container .shoes__pictures--one,
   #pictures__section .pictures__container .shoes__pictures--two,
@@ -363,13 +345,6 @@ header .header__bag {
     border-bottom: 5px #FF0000 solid;
     cursor: pointer;
     transition: all 0.3s linear;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #pictures__section .pictures__container .shoes__pictures--one,
-  #pictures__section .pictures__container .shoes__pictures--two,
-  #pictures__section .pictures__container .shoes__pictures--three {
-    height: 10rem;
   }
 }
 
@@ -471,6 +446,11 @@ footer .footer__button {
     background: rgb(116, 209, 143);
     font-size: 1.3rem;
     transition: all 0.8s;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer .footer__button {
+    font-size: 1.1rem;
   }
 }
 

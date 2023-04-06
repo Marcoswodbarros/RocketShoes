@@ -94,5 +94,9 @@ footer {
                 transition: all .8s;
             }
         }
+
+        @media screen and (min-width: $desktop) {
+            font-size: 1.1rem;
+        }
     }
 }
