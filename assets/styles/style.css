@@ -6,14 +6,13 @@ header {
 }
 @media screen and (min-width: 1024px) {
   header {
-    background-image: linear-gradient(to right, #E5E5E5 33.5%, #C4C4C4 33.5% 100%);
+    background-image: linear-gradient(to right, #E5E5E5 40%, #C4C4C4 40% 100%);
     height: 10vh;
     padding: 0 1rem;
   }
 }
 @media screen and (min-width: 1440px) {
   header {
-    background-image: linear-gradient(to right, #E5E5E5 35%, #C4C4C4 35% 100%);
     padding: 0 1.8rem;
   }
 }
@@ -148,12 +147,7 @@ header .header__bag {
 }
 @media screen and (min-width: 1024px) {
   #main__sections--container #intro__section {
-    width: 33.5vw;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #main__sections--container #intro__section {
-    width: 35vw;
+    width: 40vw;
   }
 }
 #main__sections--container #intro__section h1 {
@@ -282,13 +276,7 @@ header .header__bag {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    padding-top: 3rem;
-    width: 66.5vw;
-  }
-}
-@media screen and (min-width: 1440px) {
-  #pictures__section {
-    width: 65vw;
+    padding-top: 5vh;
   }
 }
 #pictures__section .bigPictures__container {
@@ -310,7 +298,7 @@ header .header__bag {
 @media screen and (min-width: 1024px) {
   #pictures__section .bigPictures__container .big__shoes {
     display: block;
-    height: 18rem;
+    height: 45vh;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -345,8 +333,11 @@ header .header__bag {
 }
 @media screen and (min-width: 1024px) {
   #pictures__section .pictures__container {
-    justify-content: space-between;
+    justify-content: center;
+    -moz-column-gap: 3vw;
+         column-gap: 3vw;
     overflow: hidden;
+    width: 60vw;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -358,7 +349,7 @@ header .header__bag {
   #pictures__section .pictures__container .shoes__pictures--one,
   #pictures__section .pictures__container .shoes__pictures--two,
   #pictures__section .pictures__container .shoes__pictures--three {
-    height: 7rem;
+    height: 20vh;
   }
   #pictures__section .pictures__container .shoes__pictures--one:hover,
   #pictures__section .pictures__container .shoes__pictures--two:hover,
@@ -487,12 +478,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   body main {
-    background-image: linear-gradient(to right, #E5E5E5 33.5%, #C4C4C4 33.5% 100%);
+    background-image: linear-gradient(to right, #E5E5E5 40%, #C4C4C4 40% 100%);
     height: 75vh;
-  }
-}
-@media screen and (min-width: 1440px) {
-  body main {
-    background-image: linear-gradient(to right, #E5E5E5 35%, #C4C4C4 35% 100%);
   }
 }/*# sourceMappingURL=style.css.map */

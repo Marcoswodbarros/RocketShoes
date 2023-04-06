@@ -7,12 +7,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        padding-top: 3rem;
-        width: 66.5vw;
-    }
-
-    @media screen and (min-width: $desktop) {
-        width: 65vw;
+        padding-top: 5vh;
     }
 
     .bigPictures__container {
@@ -33,7 +28,7 @@
 
             @media screen and (min-width: $laptop) {
                 display: block;
-                height: 18rem;
+                height: 45vh;
             }
 
             @media screen and (min-width: $desktop) {
@@ -66,8 +61,10 @@
         }
 
         @media screen and (min-width: $laptop) {
-            justify-content: space-between;
+            justify-content: center;
+            column-gap: 3vw;
             overflow: hidden;
+            width: 60vw;
         }
 
         @media screen and (min-width: $desktop) {
@@ -78,7 +75,7 @@
         .shoes__pictures--two,
         .shoes__pictures--three {
             @media screen and (min-width: $laptop) {
-                height: 7rem;
+                height: 20vh;
 
                 &:hover {
                     border-bottom: 5px $color-button solid;

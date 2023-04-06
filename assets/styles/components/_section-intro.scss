@@ -11,11 +11,7 @@
         row-gap: .5rem;
 
         @media screen and (min-width: $laptop) {
-            width: 33.5vw;
-        }
-
-        @media screen and (min-width: $desktop) {
-            width: 35vw;
+            width: 40vw;
         }
 
         h1 {
